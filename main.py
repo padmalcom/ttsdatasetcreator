@@ -2,6 +2,8 @@ from rich import print
 import glob
 import os
 from spacy.lang.de import German
+from spacy.lang.en import English
+from spacy.lang.fr import French
 import time
 import pyaudio
 import keyboard
@@ -122,7 +124,16 @@ if __name__ == '__main__':
 		all_texts += f.read() + '\n'
 				
 	# split texts by sentences
-	nlp = German()
+	if in_lang == 'de':
+		nlp = German()
+	elif in_lang == 'en':
+		nlp = English()
+	elif in_lang == 'fr':
+		nlp = French()
+	else:
+		print("The language %s is not supported yet. Please create a github issue." % in_lang)
+		sys.exit(0)
+	
 	nlp.add_pipe('sentencizer')
 
 	doc = nlp(all_texts)
