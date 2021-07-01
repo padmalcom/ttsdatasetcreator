@@ -22,6 +22,7 @@ import soundfile
 import sys
 
 
+# Audio processing
 chunk = 1024
 sample_format = pyaudio.paInt16
 channels = 1
@@ -35,7 +36,8 @@ vad_window_length = 30
 sample_rate = 16000
 vad_max_silence_length = 6
 	
-	
+
+# Source: CorentinJ - Real Time Voice Cloning - Thanks for this one!
 def trim_long_silences(wav):
 	
 	# Compute the voice detection window size
@@ -71,11 +73,10 @@ def trim_long_silences(wav):
 
 	return wav[audio_mask == True]
 
-
 if __name__ == '__main__':
 
 	console = Console()
-	
+		
 	table = Table()
 	table.add_column("TSS Dataset Creator", style="cyan")
 	table.add_row("2021 - padmalcom")
@@ -100,7 +101,11 @@ if __name__ == '__main__':
 	
 	# 0. select folder to save wavs
 	app_folder = os.path.dirname(os.path.realpath(__file__))
-	project_folder = os.path.join(app_folder, "sample_" + datetime.now().strftime("%d.%m.%Y"))
+	sample_folder_index = 0
+	while os.path.exists(os.path.join(app_folder, "samples" + str(sample_folder_index))):
+		sample_folder_index += 1
+		
+	project_folder = os.path.join(app_folder, "samples" + str(sample_folder_index))
 	console.print("Please select a [red]folder[/red] to save your current session to (default [i]%s[/i])." % project_folder)
 	in_folder = input()
 	if not in_folder:
@@ -194,10 +199,17 @@ if __name__ == '__main__':
 					
 				if keyboard.is_pressed('n'):
 					i += 1
+					
+					# Check if a file with the corresponding name already exists
+					recording_index = 0
+					while os.path.exists(os.path.join(project_folder, (str(recording_index) + '.wav').rjust(12, '0'))):
+						recording_index += 1
+		
+					# Write the wav file
 					data = stream.read(chunk)
 					frames.append(data)
 					stream.close()
-					wav_file_name = (str(i) + '.wav').rjust(10, '0')
+					wav_file_name = (str(recording_index) + '.wav').rjust(12, '0')
 					wf = wave.open(os.path.join(project_folder, wav_file_name), 'wb')
 					wf.setnchannels(channels)
 					wf.setsampwidth(pyaudio.get_sample_size(sample_format))
@@ -212,7 +224,7 @@ if __name__ == '__main__':
 										
 					# Write the transcript
 					if in_text_format == 'txt':
-						text_file_name = (str(i) + '.txt').rjust(10, '0')
+						text_file_name = (str(recording_index) + '.txt').rjust(12, '0')
 						text_file_path = os.path.join(project_folder, text_file_name)
 						if os.path.exists(text_file_path):
 							os.remove(text_file_path)
@@ -223,7 +235,7 @@ if __name__ == '__main__':
 						csv_file_path = os.path.join(project_folder, 'metadata.csv')
 						csv_file = open(csv_file_path, 'a')
 						# todo cleanse text
-						csv_file.write(wav_file_name + "," + all_sentences[i] + "," + all_sentences[i] + '\n')
+						csv_file.write(wav_file_name + "|" + all_sentences[i] + "|" + all_sentences[i] + '\n')
 						csv_file.close()
 					break
 				elif keyboard.is_pressed("d"):

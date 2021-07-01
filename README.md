@@ -21,14 +21,29 @@ The console application guides you through the process.
 4. You will then see a text in magenta. Read it out loud. When done, press n (next) and the next sentence is shown. If you are not satisfied with your reading, press d (discard) and the text is repeaded. When you think you generated enough samples, press e (exit). You find the wav and txt files in the folder you specified in 2.
 
 ## Generate readable text
-If you need more texts to read (what will most certainly be the case), then you can use the text collector.
+If you need more texts to read (what will most certainly be the case), then you can use one of the generators
 
-- python main_text_collector.py
+### Wikipedia
+
+- python main_text_gen_wiki.py
 
 This tool collects texts from wikipedia for any language and stores those texts in the texts folder in the application directory.
 
 1. select a language (default de)
-2. select the number of articles to download (default 100)
+2. select the number of articles to download (default 100, max is 500)
+3. select if the text should be normalized ($=>Dollar, 10=ten, 1.=first) and cleansed (an nlp model that is trained to repair sentences is applied, this is an experimental feature).
+
+### GPT-2
+GPT-2 is a pretrained language model that can be used to generate text.
+
+- python main_text_gen_gpt2.py
+
+This tool generates sentences of ~400 characters.
+
+1. select a langauge (default de)
+2. select the number of files to create (default 100)
+3. select if the text should be normalized ($=>Dollar, 10=ten, 1.=first)
+
 
 ## Contribute
 If you'd like to see a specific language to be supported feel free to create text files containing (royalty free) stories and create a pull request.
