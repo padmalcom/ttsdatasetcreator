@@ -144,7 +144,7 @@ if __name__ == '__main__':
 		# Generate new sentences based on the last n characters
 		prefix = gen_sentence[-min(200, len(gen_sentence)):]
 		#console.print("Using prefix [green]%s[/green] of text [green]%s[/green] for generation." % (prefix, gen_sentence))
-		text = pipe(prefix, max_length=400)[0]["generated_text"]
+		text = pipe(prefix, max_length=200)[0]["generated_text"]
 		
 		# cut the prefix
 		text = text[len(prefix):]

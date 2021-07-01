@@ -20,6 +20,7 @@ import webrtcvad
 from scipy.ndimage.morphology import binary_dilation
 import soundfile
 import sys
+import pdfplumber
 
 
 # Audio processing
@@ -110,9 +111,10 @@ if __name__ == '__main__':
 		os.mkdir(in_folder)
 	else:
 		print("This folder already exists. Metadata will be merged. Is that okay? (y,n)")
-	folder_exists = input()
-	if not folder_exists == 'y' and not folder_exists == 'yes':
-		sys.exit(0)
+		folder_exists = input()
+		if not folder_exists == 'y' and not folder_exists == 'yes':
+			sys.exit(0)
+		
 	console.print("wavs and transcripts will be saved in [red]%s[/red]" % in_folder)
 	
 	
@@ -132,13 +134,25 @@ if __name__ == '__main__':
 		in_text_format = 'csv'
 	console.print("Format set to [red]%s[/red]." % in_text_format)
 	
-	# Display files found
-	lang_text_files = glob.glob(os.path.join(app_folder, 'texts', in_lang + '*.txt'))
-	console.print("Found %d text files for %s" % (len(lang_text_files), in_lang))
+	# continue from a previous session?
+	skip_existing = False
+	new_index = 0
+	if in_text_format == 'csv' and os.path.exists(os.path.join(in_folder, 'metadata.csv')):
+		new_index = sum(1 for line in open(os.path.join(in_folder, 'metadata.csv')))
+		print("The metadata.csv in the target folder has %d lines, [red]skip[/red] the first %d sentences? (y,n)" % (new_index, new_index))
+		skip = input()
+		if skip == 'yes' or skip == 'y':
+			skip_existing = True
+	elif in_text_format == 'txt':
+		new_index = len(glob.glob1(in_folder,"*.txt"))
+		print("There are %d text files in the target folder, [red]skip[/red] %d sentences? (y,n)" % (new_index, new_index))
+		skip = input()
+		if skip == 'yes' or skip == 'y':
+			skip_existing = True
 	
-	if len(lang_text_files) == 0:
-		console.print("Please select another language or create text files starting with %s in the [red]texts[/red] folder. Exiting." % in_lang)
-		sys.exit(0)
+	# Display files found
+	lang_text_files = glob.glob(os.path.join(app_folder, 'texts', in_lang + '*.txts'))
+	console.print("Found %d text files for %s" % (len(lang_text_files), in_lang))
 				
 	# 1. Show text, sentence by sentence
 	all_texts = ''
@@ -146,6 +160,17 @@ if __name__ == '__main__':
 		f = open(tf, "r", encoding= 'utf-8')
 		all_texts += f.read() + '\n'
 				
+	# read pdfs
+	lang_pdf_files = glob.glob(os.path.join(app_folder, 'texts', in_lang + '*.pdf'))
+	console.print("Found %d pdf files for %s" % (len(lang_pdf_files), in_lang))
+
+	for pdf_file in lang_pdf_files:
+		with pdfplumber.open(pdf_file) as pdf:
+			for page in pdf.pages:
+				page_text = page.extract_text()
+				if page_text:
+					all_texts +=  page_text + '\n'
+	
 	# split texts by sentences
 	if in_lang == 'de':
 		nlp = German()
@@ -172,13 +197,21 @@ if __name__ == '__main__':
 	console.print("[green]n[/green] = next sentence, [yellow]d[/yellow] = discard and repeat last recording, [red]e[/red] = exit recording.")
 	
 	console.print("Ready?", style="green")
-	input("Press any key to start")
+	input("Press Enter to start")
 	
 	i = 0
+	if new_index > 0 and skip_existing:
+		print("Setting new index to %d" % new_index)
+		i = new_index
 	cancelled = False
 	while i < len(all_sentences):
 		console.clear()
-		console.print("\n\n" + all_sentences[i] + "\n\n", style = "black on white", justify="center")
+		
+		current_sentence = all_sentences[i]
+		current_sentence = current_sentence.replace("\n", " ")
+		current_sentence = current_sentence.replace("\t", " ")
+		
+		console.print("\n\n" + current_sentence + "\n\n", style = "black on white", justify="center")
 		console.print("(%d/%d) [green]n[/green] = next sentence, [yellow]d[/yellow] = discard and repeat last recording, [blue]s[/blue] = skip, [red]e[/red] = exit recording." % ((i+1), len(all_sentences)))
 		
 		start_time = time.time()
@@ -230,13 +263,13 @@ if __name__ == '__main__':
 						if os.path.exists(text_file_path):
 							os.remove(text_file_path)
 						text_file = open(text_file_path, 'a')
-						text_file.write(all_sentences[i])
+						text_file.write(current_sentence)
 						text_file.close()
 					else:
 						csv_file_path = os.path.join(project_folder, 'metadata.csv')
 						csv_file = open(csv_file_path, 'a')
 						# todo cleanse text
-						csv_file.write(wav_file_name + "|" + all_sentences[i] + "|" + all_sentences[i] + '\n')
+						csv_file.write(wav_file_name + "|" + current_sentence + "|" + current_sentence + '\n')
 						csv_file.close()
 					i += 1
 					break
