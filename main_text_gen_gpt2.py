@@ -161,17 +161,14 @@ if __name__ == '__main__':
 		if normalize_text:
 			gen_sentence = normlize_text(gen_sentence, in_lang, nlp)
 			
-		# remove unusable patterns
-			# clean		
-			# remove text in brackets
-			pattern1 = r'\(.*?\)'
-			gen_sentence = re.sub(pattern1, '', gen_sentence)
-						
-			pattern2 = r'==(.*?)=='
-			gen_sentence = re.sub(pattern2, '', gen_sentence)
-			
-			pattern3 = r'\[.*?\]'
-			gen_sentence = re.sub(pattern3, '', gen_sentence)
+		# remove brackets
+		gen_sentence = re.sub(".*?\((.*?)\).*?", "", gen_sentence)
+		gen_sentence = re.sub(".*?\[(.*?)\].*?", '', gen_sentence)
+		
+		# replace linebreaks and tabs
+		gen_sentence = gen_sentence.replace("\n", " ")
+		gen_sentence = gen_sentence.replace("\t", " ")
+		
 	
 		i = 0
 		while os.path.exists(os.path.join(texts_folder, in_lang + "_gpt" + str(i) + ".txt")):

@@ -100,18 +100,19 @@ if __name__ == '__main__':
 	
 	
 	# 0. select folder to save wavs
-	app_folder = os.path.dirname(os.path.realpath(__file__))
-	sample_folder_index = 0
-	while os.path.exists(os.path.join(app_folder, "samples" + str(sample_folder_index))):
-		sample_folder_index += 1
-		
-	project_folder = os.path.join(app_folder, "samples" + str(sample_folder_index))
+	app_folder = os.path.dirname(os.path.realpath(__file__))	
+	project_folder = os.path.join(app_folder, "samples")
 	console.print("Please select a [red]folder[/red] to save your current session to (default [i]%s[/i])." % project_folder)
 	in_folder = input()
 	if not in_folder:
 		in_folder = project_folder
 	if not os.path.exists(in_folder):
 		os.mkdir(in_folder)
+	else:
+		print("This folder already exists. Metadata will be merged. Is that okay? (y,n)")
+	folder_exists = input()
+	if not folder_exists == 'y' and not folder_exists == 'yes':
+		sys.exit(0)
 	console.print("wavs and transcripts will be saved in [red]%s[/red]" % in_folder)
 	
 	
@@ -178,7 +179,7 @@ if __name__ == '__main__':
 	while i < len(all_sentences):
 		console.clear()
 		console.print("\n\n" + all_sentences[i] + "\n\n", style = "black on white", justify="center")
-		console.print("(%d/%d) [green]n[/green] = next sentence, [yellow]d[/yellow] = discard and repeat last recording, [red]e[/red] = exit recording." % ((i+1), len(all_sentences)))
+		console.print("(%d/%d) [green]n[/green] = next sentence, [yellow]d[/yellow] = discard and repeat last recording, [blue]s[/blue] = skip, [red]e[/red] = exit recording." % ((i+1), len(all_sentences)))
 		
 		start_time = time.time()
 		current_time = time.time()
@@ -198,8 +199,8 @@ if __name__ == '__main__':
 
 					
 				if keyboard.is_pressed('n'):
-					i += 1
-					
+					while keyboard.is_pressed('n'):
+						time.sleep(0.1)
 					# Check if a file with the corresponding name already exists
 					recording_index = 0
 					while os.path.exists(os.path.join(project_folder, (str(recording_index) + '.wav').rjust(12, '0'))):
@@ -237,11 +238,22 @@ if __name__ == '__main__':
 						# todo cleanse text
 						csv_file.write(wav_file_name + "|" + all_sentences[i] + "|" + all_sentences[i] + '\n')
 						csv_file.close()
+					i += 1
+					break
+				elif keyboard.is_pressed("s"):
+					while keyboard.is_pressed('s'):
+						time.sleep(0.1)				
+					i += 1
+					stream.close()
 					break
 				elif keyboard.is_pressed("d"):
+					while keyboard.is_pressed('d'):
+						time.sleep(0.1)			
 					stream.close()
 					break
 				elif keyboard.is_pressed("e"):
+					while keyboard.is_pressed('e'):
+						time.sleep(0.1)
 					stream.close()
 					cancelled = True
 					break
