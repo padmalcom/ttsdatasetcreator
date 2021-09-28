@@ -1,0 +1,1 @@
+Der Button „Speichern“ wird auf der Dialogbox angezeigt. Klicken Sie in Microsoft Connect nicht auf den Button „Speichern“. Damit deaktivieren Sie die Verknüpfung zu Connect, so dass Microsoft Connect keine Verbindung mehr zum Edge Online Server herstellen kann. 8.2.12.4.2 Klicken Sie auf „Abbrechen“ und anschließend auf „Überspringen“.

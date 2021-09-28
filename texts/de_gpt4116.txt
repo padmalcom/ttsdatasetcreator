@@ -1,0 +1,1 @@
+Ein weiteres Problem, das mit der Batterie der Z-Baureihe auftritt, ist die Temperatur. Das elektrische Ladegerät stellt die Temperatur an den Elektroden auf ein bestimmtes Niveau ein, welches als „Treibhausklima“ bekannt ist. Im Laufe der Zeit kann dies zur Überhitzung des Akkus führen.

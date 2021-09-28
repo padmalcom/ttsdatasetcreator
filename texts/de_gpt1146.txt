@@ -1,0 +1,1 @@
+Was sind meine Möglichkeiten wenn ich den Drucker an den Computer anschließen will? Zuerst muss man wissen, dass der Windows Explorer so eine Art "Ordner für temporäre Dateien" ist. Dort sind die Dateien, die gerade benutzt werden, mit Symbolen versehen, die dir zeigen, dass sich das Programm auf den aktuellen Ordner bezieht.

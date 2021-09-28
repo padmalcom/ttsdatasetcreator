@@ -1,0 +1,1 @@
+Auf Deinen Websites kannst Du auch eine Alerting-Liste anlegen. Du kannst Dich z.B. für einen Newsletter anmelden, wenn Deine Website einen interessanten Artikel enthält. Du kannst Dir zusätzlich zu dieser Auflistung auch eine Liste mit den aktuellen RSS-Lesezeichen anzeigen lassen.

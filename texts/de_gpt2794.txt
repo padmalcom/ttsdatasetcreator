@@ -1,0 +1,1 @@
+ oder auch EEG-Messung Hier werden der elektrische Widerstand bzw. die elektrische Leitfähigkeit eines Gewebes gemessen und grafisch auf einem Display angezeigt. Es kann auch vorkommen, dass die Messdauer des Elektroimpulstechnikers länger als 30 Sekunden dauert.

@@ -1,0 +1,1 @@
+Twitter und die Twitter API sind die ideale Möglichkeit, Twitter Accounts für die eigene Webseite zu nutzen und dem Twitter-Kanal im eigenen Profil hinzuzufügen, sodass Sie auch die Follower anderer Twitter Accounts erreichen können. Als Faustregel gilt: Ein Tweet sollte nicht mehr als 140 Zeichen lang sein.

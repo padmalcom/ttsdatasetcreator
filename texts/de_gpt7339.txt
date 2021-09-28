@@ -1,0 +1,1 @@
+Wenn Sie eine Datei oder einen Ordner kopieren oder die gesamte Datei in einem Windows-Mediumsystem einfügen wollen, finden Sie im Feld Ordner kopieren oder Datei einfügen das Feld Vergewissern, auf ob alle Bild-, Audio- oder Videodateien importiert werden sollen.

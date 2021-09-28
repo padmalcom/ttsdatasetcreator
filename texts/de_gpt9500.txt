@@ -1,0 +1,1 @@
+Ein benutzerdefiniertes Keyword wird definiert, indem Sie auf der rechten Seite unter den Textfeldern eine der Optionen „Erfordert“, „Durchsuchen“ und „Kopieren & Einfügen“ auswählen. Das benutzerdefinierte Keyword wird nur in der Textbox links neben den Textzeilen angezeigt, die mit dem benutzerdefinierten Keyword erstellt wurden.

@@ -129,6 +129,5 @@ dmypy.json
 .pyre/
 
 texts/*wiki*
-texts/*gpt*
-
+project_*
 sample_*

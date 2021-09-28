@@ -1,0 +1,1 @@
+Mail, Yahoo! Connect, ist eine komplette Neuentwicklung der Webmail-Plattform Yahoo! Mail und ersetzt derzeit bestehende Versionen, wenn nötig. Es handelt sich dabei um eine vollständig web-basierte Anwendung – die Nutzer müssen dazu nur eine Mailadresse bei Yahoo! einrichten.

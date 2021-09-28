@@ -1,0 +1,1 @@
+ gebildet. Es ist die einfachste Form der Datenspeicherung. Eine Template-Datei speichert eine Seite mit bestimmten Standarddaten, wie z.B. den Titel und den Inhalt der Seite. Die Formatierung dieser HTML-Datei wird durch den Datenstamm bestimmt. Durch das Erstellen einer Website lässt sich eine komplette Website erstellen.

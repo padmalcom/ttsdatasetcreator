@@ -1,0 +1,1 @@
+1. Die Rechtsgrundlage für die Verarbeitung von personenbezogenen Daten unter Verwendung von Cookies ist Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse ergibt sich aus den oben dargestellten Zwecken. 3. Über die Verwendung von Matomo erfolgt keine Analyse von Websites, da diese durch die Deaktivierung der IP-Anonymisierung keine IP-Adresse mehr speichern würden.

@@ -1,0 +1,1 @@
+Dieses Feld wird in der Auswahlliste angezeigt, wenn das Produkt nicht im Programm geöffnet und mit anderen Produkten verknüpft wird.

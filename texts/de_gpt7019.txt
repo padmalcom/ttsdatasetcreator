@@ -1,0 +1,1 @@
+Der eigentliche Arbeitszettel beginnt mit den wichtigsten Angaben des Druckunternehmens, wie z.B. Papier, Papierqualiät und auch die Auflagenart. Nach dem Eingeben der Details, muss man nur noch auswählen in welche Größe gedruckt wird. Außerdem bekommt man kurz den Hinweis auf weitere Optionen, wie Seitenformat oder eine Seitenkante.

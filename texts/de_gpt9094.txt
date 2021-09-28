@@ -1,0 +1,1 @@
+ um eine anonymisierte Erfassung der IPs zu gewährleisten. Die Daten werden in den Logfiles unseres Systems gespeichert.

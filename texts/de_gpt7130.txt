@@ -1,0 +1,1 @@
+Es gibt auch ein kleines Konto, das nur eine monatliche Gutschrift auf die angegebene Kreditkarte auf dem Konto hat. Dieses Konto wird "Tilgungsrechner" genannt. Bei jeder Auszahlung muss man sich im Vorfeld ausweisen und auch die Bankdaten für die Bezahlung eingeben.

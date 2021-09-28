@@ -1,0 +1,1 @@
+Danach soll dann jeder Spieler seinen eigenen Planeten auf dem Blatt Papier einzeichnen. Dabei wird jedem Spieler von seinen bereits vorhandenen Figuren die Möglichkeit mitgegeben auf die jeweilige Figur zu setzen. Als erstes muss der Spieler auf seinem Spielbrett die vier Symbole "Kreuzung", "Fels", "Steig" und "Sprung" in einem der vier Himmelsrichtungen zeichnen.

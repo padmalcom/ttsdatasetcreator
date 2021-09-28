@@ -1,0 +1,1 @@
+Klicken Sie in der Taskleiste auf den Namen der Sicherungsdatei, und wählen Sie "Mit einem Dropbox-Konto synchronisieren". Wenn Sie ein anderes Konto für diese Synchronisierung verwenden möchten, klicken Sie auf "Aus diesen Konto verwenden". Klicken Sie in der Taskleiste auf Aus Ihren Dropbox-Konten importieren.

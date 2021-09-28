@@ -1,0 +1,1 @@
+Bei einigen wenigen Angeboten können Sie auch auf einen Link zum Startbildschirm der Software oder zu den Hauptmenüpunkten im Dropdownmenü in der Liste „Home“ klicken, wodurch Sie direkt zu diesem Objekt gelangen. In den Navigationseigenschaften finden Sie unter „Optionen“ die Menüpunkte „Startbildschirm“, „Allgemein“ und „Zurück zum Startbildschirm“.

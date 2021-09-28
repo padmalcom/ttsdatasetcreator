@@ -1,0 +1,1 @@
+So führen Sie verschiedene Aktionen aus, wenn Sie ein Word-Dokument auf einem Apple-Gerät erstellen möchten. Wechseln Sie zu Seite »Datei«. Wählen Sie über das Menü Datei die Option Dokument. Ändern Sie die Größe des Dokuments. Die Textgröße bei Einfügen anpassen Wählen Sie Textgröße aus und legen Sie dann die Textfarbe fest.

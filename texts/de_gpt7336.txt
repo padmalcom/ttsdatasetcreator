@@ -1,0 +1,1 @@
+Das Feld „Format“ bietet eine Reihe von Formatierungsoptionen an, mit denen Sie die Zellen formatieren oder formatieren lassen können. Zellen formatieren Geben Sie den Typ eines Zellfelds ein. Wenn Sie keine Formatierung vorgenommen haben, werden Tabellen als leere Zellen angezeigt. Es wird empfohlen, eine Zelle zu formatieren, um die Farbe der Zellen anzupassen.

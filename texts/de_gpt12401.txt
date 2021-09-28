@@ -1,0 +1,1 @@
+Ein Beispiel-Dialog: Sie können immer die Menüoption auswählen, die unten ausgewählt wird * * * einstellt, falls es " Automatisches Aktualisieren" steht, es erscheint mit dem Symbol „Automatisches Aktualisieren".

@@ -1,0 +1,1 @@
+Ein anderer Weg ist das Verschlüsseln über eine Website. Dies ist schon länger bekannt und wird nun oft eingesetzt. Die Webseite befindet sich im Intranet einer Firma oder der Schule. Es werden die folgenden Seiten mit dem SSL-Zertifikat mit allen Seiten der Webseite verschlüsselt: Das Zertifikat wird über den Webhoster oder ein privates Unternehmen beantragt und eingerichtet.

@@ -1,0 +1,1 @@
+Die Daten werden auf dem Server der Nokia-App-Verwaltungs-Software direkt auf der Konsole geladen.

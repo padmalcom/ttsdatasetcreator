@@ -1,0 +1,1 @@
+Ein Klick auf das kleine Zeichen vor dem Wort führt zur weiteren Ansichtsseite. Dort kann man dann z.B. einen eigenen Titel eingeben. Durch die Eingabe von Befehlen navigiert man im Editor in der Seiten-Ansicht zu den entsprechenden Menü-Seiten. Damit hat man Zugriff, wenn ein Menüeintrag noch nicht erstellt wurde.

@@ -1,0 +1,1 @@
+Ich habe die Backupprojekte jetzt in der config.xml angelegt und es funktioniert so wie gewünscht. In der config.xml habe ich jetzt die folgenden Felder: Wo finde ich die beiden Felder für die Console-Tabelle? ich habe ein Problem mit dem Upload von Dateien. Die Daten werden als CSV angehängt. Diese CSV kann ich am PC nicht öffnen.

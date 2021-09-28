@@ -1,0 +1,1 @@
+Die meisten Firewalls werden aber sowieso ständig überlastet. Dann müssen wir über DNS-Auflösung eine neue Domäne erstellen lassen. Das wird für uns nicht leicht, da wir gar keine Domäne haben sondern nur ein Postfach. Wir können die Adresse mit piwan in der DNS-Server-Konfiguration prüfen, wenn wir wollen.

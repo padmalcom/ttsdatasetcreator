@@ -1,0 +1,1 @@
+Öffnen Sie die App, wählen Sie dort Ihren Video-Ordner aus und klicken Sie auf den Knopf "Öffnen". Sie öffnen ein neues Fenster, in dem Sie Ihr Video wählen können. Im Feld "Inhalt" wählen Sie den Ordner aus, dessen Inhalte Sie hochladen möchten.

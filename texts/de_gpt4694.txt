@@ -1,0 +1,1 @@
+Diese kann man in Form einer Textbox an die gewünschten Textbereiche anordnen. Dabei sollten die Überschriften einer Kategorie wie auch eines Untermenüs eine bestimmte Höhe und Breite haben, um mit einer übersichtlichen Menüführung versehen zu werden. Die Bildgröße ist nicht die oberste Grenze: Bei Bildern müssen Sie mit dem Seitenverhältnis von 72:3 oder höher arbeiten.

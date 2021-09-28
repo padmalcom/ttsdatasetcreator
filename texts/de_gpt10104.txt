@@ -1,0 +1,1 @@
+Im folgenden Praxistipp zeigen wir Ihnen deshalb die wichtigsten Grundfunktionen des Shop-Systems Magento. Der wichtigste Bestandteil des Webshop-Systems Magento ist die Verwaltung von Zahlungsdiensten. So verwenden Sie die Zahlungsdaten auf Ihrem Website-Shop Welche Zahlungsmöglichkeiten gibt es?

@@ -1,0 +1,1 @@
+Hier findet man einen Überblick über die einzelnen Seiten. Über den Button Bearbeiten gelangt man in den Untermenüpunkt Startseite. Im dritten Menüpunkt Links sind weitere Rubriken angelegt. Diese sind unter anderem: News, Events, Chronik, Lexikon, Download, Gästebuch und Bildergalerie.

@@ -1,0 +1,1 @@
+Als erster Schritt werden die Grundfunktionen der aktuellen Yahoo! Mail-Version installiert und über den Webmailer genutzt. Anschließend können die Benutzer ihre E-Mails über die Yahoo! Mail-Plattform auch im Webmailer verwalten.

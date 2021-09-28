@@ -1,0 +1,1 @@
+Wenn Sie als Zahlungsart PayPal gewählt haben, werden die von Ihnen eingegebenen Zahlungsdaten an PayPal übermittelt. Um die Sicherheit Ihrer Zahlungen zu gewährleisten, werden Ihre Daten zudem verschlüsselt an PayPal übermittelt.

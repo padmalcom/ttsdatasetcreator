@@ -1,0 +1,1 @@
+Als erstes haben wir eine Klasse View, in der alle Views gespeichert werden. Die Views lassen sich entweder direkt aufrufen oder mittels require-Methoden ansprechen. Bei der dritten Funktion handelt es sich um eine Liste von Views.

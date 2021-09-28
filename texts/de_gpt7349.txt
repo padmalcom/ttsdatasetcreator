@@ -1,0 +1,1 @@
+Der Wert -s sollte auf Ihre Bedürfnisse abgestimmt sein. Um die maximale Dauer für ein FPGA festzulegen, führen Sie Folgendes aus: Der Wert in dem Klammernzeichen ist der Starttimer. Es gibt drei mögliche Werte für den Starttimer.

@@ -1,0 +1,1 @@
+Wähle unter „Eigenschaften“ den Reiter „Titel“ aus. Nun kannst du neben dem Titel noch weitere Details anzeigen lassen: Titel des Künstlers, Künstler, Erscheinungsjahr, Veröffentlichungsdatum, Videoart, etc. In den Suchergebnissen sollte der Titel dann immer oben zu sehen sein. Unter „Tags“ kannst du deine Tags angeben.

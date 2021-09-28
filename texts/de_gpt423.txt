@@ -1,0 +1,1 @@
+Die Höhe des Fensters wird mittels dessen Größe bestimmt und bestimmt die Form des Textes. Diese Form hat den Vorteil, dass sie eine noch breitere Darstellung des Textes zulässt.

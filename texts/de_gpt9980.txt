@@ -1,0 +1,1 @@
+Dabei werden auch CSS und jQuery für die Einbindung unterstützt. Damit die Text-Platzhalter nicht nur auf den ersten Blick als solche erkennbar sind, wird der CSS-Code zusätzlich in der Zwischengröße eingebunden, sodass sich auch auf dem zweiten Blick der Text erkennen lässt. Außerdem werden alle Schriftarten für die Vorschau für den Inhalt des HTML-Codes dargestellt.

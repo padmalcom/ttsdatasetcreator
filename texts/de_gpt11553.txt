@@ -1,0 +1,1 @@
+Dies geschieht automatisch. Dies führt dazu, dass man automatisch eingeloggt ist. Möchte man nicht mehr automatisch eingeloggt sein, kann in den Systemeinstellungen die automatische Anmeldung deaktivieren.

@@ -1,0 +1,1 @@
+Ein Upgrade ist nicht möglich. Eine ausführliche Beschreibung des Klassenumbaus für das Modul ist hier zu finden. Der Code für diesen Code kann frei kopiert und für die eigene Nutzung verwendet werden. Im ersten Artikel dieser Serie möchte ich die einzelnen Methoden zur Verfügung stellen, mithilfe derer man eine Seite im Modul anlegen und bearbeiten kann.

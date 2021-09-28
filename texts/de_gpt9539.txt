@@ -1,0 +1,1 @@
+In der Seitenleiste wird eine Symbolleiste angezeigt, in der das Symbol angezeigt wird, das vergrößert werden soll. Sie können auch zum Einfügen eines Symbols auf der Symbolleiste klicken.

@@ -1,0 +1,1 @@
+Durch einen gezielten Kurswechsel auf einem Flugsimulator kann ein Flugzeug aus seiner Startposition heraus auch von einem anderen Piloten gesteuert werden. Dies nennt sich Avionik. Dazu zählen beispielsweise Navigationsinstrumente.

@@ -1,0 +1,1 @@
+So werden sie angegeben:  angegeben. Bei einem guten FPGA sollten dies 300 oder 500 sein. Wenn Sie nach einer Option mit mehr Testdurchläufen suchen, wählen Sie diesen Wert und klicken Sie auf OK.

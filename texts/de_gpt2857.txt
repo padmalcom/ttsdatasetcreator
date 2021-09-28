@@ -1,0 +1,1 @@
+Die neuen Funktionen basieren weitgehend auf Klassen – es ist also nicht notwendig, Seiten im Modul zu erstellen, um sie verwenden zu können. Die folgende Darstellung zeigt, wo die Klassen stehen:  enthält die Seiten im Modul, die noch nicht angelegt / bearbeitet werden.

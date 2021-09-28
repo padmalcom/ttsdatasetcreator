@@ -1,0 +1,1 @@
+. Diese Eingabe habe ich mehrmals gemacht und dann wurde mir eine Fehlermeldung angezeigt. Wenn dies bereits der Fall war, kann ich nur empfehlen den Router kurz auszuschalten und wieder einzuschalten. Dadurch sollte das Problem behoben sein. 2. Der Router muss über einen separaten Zugang zum Internet verfügen.

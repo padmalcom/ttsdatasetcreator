@@ -1,0 +1,1 @@
+Diese Programme sind so ausgelegt, dass sie von jedem, der den PC einschaltet, ausgeführt werden können. Sie sind ein nützliches Werkzeug, das dem Programmierer den Umgang mit Computersystemen näherbringt.

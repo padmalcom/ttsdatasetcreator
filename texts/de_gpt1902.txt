@@ -1,0 +1,1 @@
+Es wird dann eine Nummer am unteren Ende der Feldliste ausgegeben: Geben Sie im Feld "Zifferbereich" die gewünschte "Differenz" zum ausgewählten Datumsbereich ein.

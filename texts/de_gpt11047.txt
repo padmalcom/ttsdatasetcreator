@@ -1,0 +1,1 @@
+Wenn Sie die Tastatur ohne Adapter verwenden möchten, setzen Sie die erforderlichen Änderungen wie folgt um: Schließen Sie ein USB-Kabel an der Tastatur an und gehen Sie wie folgt vor: Schließen Sie das USB-Kabel auf der Tastatur an. Legen Sie das Netzteil in die Tastatur ein. Schließen Sie es ab.

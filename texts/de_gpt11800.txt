@@ -1,0 +1,1 @@
+Ich vermute, dass das Problem ganz einfach auftritt, wenn die Cam nicht mit dem WLAN verbunden ist. Leider hab ich es nicht hinbekommen es selber zu versuchen. Ist das Problem bekannt und wie löst man es?

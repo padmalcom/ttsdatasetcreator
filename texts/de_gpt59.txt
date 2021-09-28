@@ -1,0 +1,1 @@
+ per PayPal abzubuchen. Das geschieht nach einem Zufallsgenerator. Eine der besten Alternativen zu PayPal ist die klassische Banküberweisung.

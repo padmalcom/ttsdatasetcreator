@@ -1,0 +1,1 @@
+Ein Benutzerkonto ist ebenfalls sinnvoll, wenn Sie viele Daten im System haben. Mit dem Benutzerkonto lässt sich auch die Software steuern, z.B. wenn sie als DHCP-Server für den Server dient. Um das Benutzer-Account einzurichten klicken Sie doppelt auf den Eintrag "Neues Benutzerkonto ...".

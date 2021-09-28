@@ -1,0 +1,1 @@
+Sobald Sie sich mit der Anwendung „OK-Kennwort“ einloggen, erfolgt ein Aktivieren der Benutzer-Kennwortes. Die Benutzerabmeldung kann durch Eingabe von „_ _ _ _ _ _ _ _ _ _ _ _ “ geändert werden.

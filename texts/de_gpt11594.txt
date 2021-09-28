@@ -1,0 +1,1 @@
+Nun müssen wir nur noch prüfen, ob die neue IP-Adresse verfügbar ist, und den DNS-Name des Postfachs eintragen. Natürlich gibt es auch noch andere Möglichkeiten den DNS und PHP-Server zu konfigurieren.

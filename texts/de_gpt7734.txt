@@ -1,0 +1,1 @@
+Sie müssen außerdem in dem Formular "Systemsoftware" das Kennwort für eine von ihnen festgelegte Software eintragen, z.B. wenn Sie am Rechner des Administrators den Browser nutzen möchten. Das Kennwort wird im Fenster "Benutzerverwaltung" angezeigt.

@@ -1,0 +1,1 @@
+Eine der einfachsten Möglichkeiten der elektrischen Ladungserhaltung ist die Reduktion des elektrischen Widerstandes des Mediums. Das wäre im Fall von Atomkernen eigentlich kein Problem. Da Elektronen aber an ihre Ladung gebunden sind, müssen sie den Widerstand möglichst groß wählen.

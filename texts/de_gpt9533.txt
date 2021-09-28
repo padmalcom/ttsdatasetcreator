@@ -1,0 +1,1 @@
+Wählen Sie im Menü Einstellungen das Menü Optionen aus. Tippen Sie im Feld "Über das Netzwerk" auf Optionen. Tippen Sie für jedes gewünschte Dropbox-Konto auf Speichern. Klicken Sie auf Dateien. Zum Hinzufügen eines neuen Kontos geben Sie die E-Mail-Adressen an, mit denen Sie Dropbox bereits verwenden.

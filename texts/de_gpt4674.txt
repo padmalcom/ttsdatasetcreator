@@ -1,0 +1,1 @@
+Man braucht zunächst einen eigenen Namen ohne E-Mail-Adresse Ein weiterer wichtiger Aspekt ist die Flexibilität, da es keine eigene Datenbank benötigt. Außerdem fällt es dem Mitarbeiter dadurch leichter, im Unternehmen über ein Netzwerk auf die Daten zugreifen zu können und dort zu arbeiten.

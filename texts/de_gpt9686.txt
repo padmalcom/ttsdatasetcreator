@@ -1,0 +1,1 @@
+Für ein mittelständisches Unternehmen stellen die Anforderungen einer TYPO3 Lösung besondere Herausforderungen dar: Auf Wunsch benötigt man eine eigene Website – doch es soll möglichst einfach zu bedienen sein, so dass die Mitarbeiter die Website schnell finden und verstehen.

@@ -1,0 +1,1 @@
+. Jetpack speichert die erhobenen Daten unter einem Pseudonym und nutzt sie nicht zur Identifizierung des Nutzers.

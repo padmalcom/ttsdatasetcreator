@@ -1,0 +1,1 @@
+Die Produktdetails wurden bereits auf der Produktseite eingebunden. Wenn ihr die Detailseite von einem Produkt über die Tabbuttons aufruft, wird ein kleines Fenster mit allen Details, die zum jeweiligen Produkt passen, angezeigt.

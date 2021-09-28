@@ -1,0 +1,1 @@
+ Eine Zahlung gilt erst dann als erfolgt, wenn wir über den Betrag endgültig verfügen können. Wechsel werden nur erfüllungshalber entgegengenommen, und gelten erst nach ihrer Einlösung als Zahlung.

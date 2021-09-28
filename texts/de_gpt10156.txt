@@ -1,0 +1,1 @@
+Da ich aber einen Farbfilter benutze und mir das Bild dann erst zuhause anschaue, ist es im Original fast immer dunkel. Das ändert sich nicht automatisch. Das einzige was ich bei den alten Bildtypen ändern will, ist das Verhältnis zwischen Rot und Orange. Der Wert für den Weißabgleich ist der gleiche wie im Original. Das ist alles.

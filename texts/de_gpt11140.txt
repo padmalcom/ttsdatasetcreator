@@ -1,0 +1,1 @@
+Grundsätzlich unterscheidet man beim Trading zwischen kurzen und langen Trades. Short Trade sind eher kurz aber auch lang. Short ist der Kurs, in dem sich der Wert des Basiswerts nach dem Trade innerhalb der Tradinglinie befindet. Long ist der Wert des Basiswerts auf der Gewinnlinie, sodass der Trader den Handel mit steigenden Kursen startet, was natürlich sehr lukrativ wäre.

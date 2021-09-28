@@ -1,0 +1,1 @@
+Wenn Sie diese aktivieren, verhindert Windows, dass eine Anwendung eine bestimmte Größe überschreitet. 1. Klicken Sie auf die „Start“-Schaltfläche und dann auf „Systemsteuerung“. 2. Klicken Sie dann auf „System und Sicherheit“.

@@ -1,0 +1,1 @@
+Anschließend gibt man einige Informationen wie Größe, Format usw. ein. Danach fügt man den Bilder Text hinzu. Dabei muss man keine großen Änderungen vornehmen. Man bekommt lediglich den Text und das Bild. Nun werden die Daten für das Bild, den Text und das Hintergrundbild gespeichert. Danach wird das Vorschaubild hochgeladen.

@@ -1,0 +1,1 @@
+Eine Zahlung gilt erst dann als erfolgreich, wenn sie an den E-Payment Anbieter übermittelt wurde und dies durch die Bestätigung per Email bestätigt wird. Die Lieferzeit kann je nach Land des Händlers sehr unterschiedlich sein. Wenn du eine Bestellung für Deutschland auslöst, dauert Ihre Bestellung 2 Tage, bei der Lieferung außerhalb Deutschlands kann es bis zu 7 Tagen dauern.

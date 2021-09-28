@@ -1,0 +1,1 @@
+In diesem Fall soll es zwei mögliche Unterlaufe dieses Verzeichnisses geben: Die Anzahl der zu erreichenden Befehle im Unterlauf wird die Anzahl der Unterläufe des aktuellen Verzeichnisses sein.

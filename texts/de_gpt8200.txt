@@ -1,0 +1,1 @@
+Bei diesem Problem wurde festgestellt, dass diese Funktion nicht für alle Benutzer verfügbar ist und dies auch in iOS 11 nicht verfügbar sein wird. Wir werden den Fehler schnellstmöglich beheben und Ihnen bis zum Start in iOS 11 Bescheid geben. Hinweis: Bei Verwendung dieser Funktion konnte es bei Ihnen zu Datenverlust kommen. Bitte löschen und neu starten Sie Ihr iPhone.

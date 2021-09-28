@@ -1,0 +1,1 @@
+Sie haben ein Fahrzeug, das den Motor mit der von Ihnen im Fahrzeug angebrachten elektrischen Zusatzleistung betankt. Das Ergebnis ist nicht ganz einstellbar, sondern liegt irgendwo zwischen den Werten, die vom Motor festgelegt werden, und den Werten, die je nach Motorleistung vom Akku erzeugt werden.

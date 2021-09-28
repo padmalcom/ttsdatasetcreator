@@ -1,0 +1,1 @@
+Hier die ganze Vorgehensweise. Das mit den Schwarzwerten habe ich in der Vergangenheit mal so beschrieben, dass mit dem Weißabgleich und dem Kontrast nur Rot und Blau vermischt werden. Aber das sind nur Randaspekte und die können nicht alle einzeln behandelt werden und sind auch im Endeffekt nur Grundlagen.

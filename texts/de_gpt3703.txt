@@ -1,0 +1,1 @@
+Da sie in der Regel nur mit sehr geringen Kapazitäten arbeiten, sind sie bei den Kosten wesentlich niedriger als der Preis für eine physische Installation. Cloud-Server haben auch einen Einfluss auf die Kosten. Bei den günstigen Anbietern können Sie oft mehrere Geräte anschließen, aber der Preis ist meist deutlich höher als für die Hardware in einem lokalen Unternehmensnetzwerk.

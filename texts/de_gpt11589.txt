@@ -1,0 +1,1 @@
+Wenn die „/etc/network/interfaces“ in der Datei „/etc/console“ auf dem „root“-Passwort ändert, kann diese Datei natürlich überschrieben werden.

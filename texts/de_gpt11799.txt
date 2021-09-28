@@ -1,0 +1,1 @@
+Ich wollte schon lange fragen, ob es möglich ist, die Kamera von einem USB Stick zu starten, ohne dass die Cam das Kennwort zum Speichern verlangt. Mein Kumpel und ich wollten gemeinsam einen Film machen, der nach 3 stunden im Hintergrund laufen sollte. Ich habe das Video von meiner Sony A7 und es klappt sehr gut.

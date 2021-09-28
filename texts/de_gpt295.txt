@@ -1,0 +1,1 @@
+Es gibt die Möglichkeit, die Liste in der Seitenleiste anzuzeigen oder auszublenden. 1. Wie kann ich Benutzer von meiner Liste entfernen? Melden Sie sich unter http://www.search.ch/search_history an. 2. Was muss ich tun, bevor ich Benutzer von meiner Liste entfernen kann? Melden Sie sich mit Ihrer E-Mail-Adresse und Ihrem Passwort auf http://www.search.ch/searchhistory an.

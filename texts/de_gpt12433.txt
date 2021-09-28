@@ -1,0 +1,1 @@
+Zudem ist nur eine begrenzte Anzahl von CAD-Dateien im CAD-Modell verfügbar. Die Software bietet darüber hinaus eine Möglichkeit zur direkten Verwendung. Die von Ihnen aufgerufene CAD-Datei wird mithilfe von CATIA-XML erzeugt und anschließend auf die gleiche Weise an Ihre spezifischen Bedürfnisse angepasst.

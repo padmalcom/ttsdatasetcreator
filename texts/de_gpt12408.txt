@@ -1,0 +1,1 @@
+Falls keine anderen Benutzer-Kennwörtern angegeben werden können, kann die Gruppe-Kennworteingabe auch über den Systemadministrator geändert werden. Der aktuelle Name der Gruppe kann über den Systemadministrator verändert werden. Klicken Sie auf „OK“, um den aktuellen Eintrag auf der Seite für „OK-Kennwort ändern“.

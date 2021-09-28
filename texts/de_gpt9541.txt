@@ -1,0 +1,1 @@
+Das Symbol für Symbolleiste wird sich entsprechend der Symbolgröße ändern.

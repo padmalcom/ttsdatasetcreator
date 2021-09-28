@@ -1,0 +1,1 @@
+Google hat kürzlich mehrere Probleme behoben, die auf die Fehler in den Einstellungen von Google Analytics zurückzuführen sind.

@@ -1,0 +1,1 @@
+Sie sehen das Symbol für Ihren DDHCP-Server. Öffnen Sie ihn indem Sie auf das Symbol klicken. Es erscheint die Seite "Informationen zur Konfiguration". Hier werden Ihnen alle Informationen über das NAS angezeigt.

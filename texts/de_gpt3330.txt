@@ -1,0 +1,1 @@
+Wenn Sie den Router deaktiviert haben, benötigen Sie im Regelfall ein aktives Netz. Tippen Sie unter „Automatische Netzwerke und WLAN-Netze“ auf das WLAN-Symbol, um eine automatische WLAN-Verbindung zu aktivieren. Tippen Sie unter „Automatische Wi-Fi-Dienste aktivieren“ und anschließend auf die „Initiale“ und „Neue Verbindung“.

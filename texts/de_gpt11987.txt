@@ -1,0 +1,1 @@
+Der Hersteller hat in seinem Shop einen Link zu einer Homepage gesetzt. Dort findest du das Bios für dein System. Wenn Dein System ein 32 bit System ist, dann kannst du nicht in der Lage sein das BIOS zu aktivieren, da dein System nur 32 Bit unterstützt.

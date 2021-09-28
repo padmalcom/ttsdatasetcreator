@@ -1,0 +1,1 @@
+Geben Sie im Feld "Analog zur vorhandenen" die Formatierung der Datums-Zähler "00", "01" usw. ein. Trennen Sie die Datumsreihenfolge wie folgt: Geben Sie mit "Tag" den Tag des gewünschten Datums ein. Beispiel: "01 Januar" ist in diesem Fall der 11.01.1970. Geben Sie im Feld "Wert" den Wert "5000" ein.

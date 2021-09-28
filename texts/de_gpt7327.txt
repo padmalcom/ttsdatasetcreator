@@ -1,0 +1,1 @@
+Dazu starten Sie in der Systemsteuerung von Windows mit Doppelklick auf das Dienstprogramm “Terminal Server” und anschließend mit einem Doppelklick auf die Schaltfläche “Neu starten”. Der SQL-Server muss danach installiert und konfiguriert werden. Um an allen relevanten Spalten einer Datenbank ein Tabellenlimit zu ändern, müssen Sie zunächst die Spalte löschen.

@@ -1,0 +1,1 @@
+Klicken Sie auf den OK-Button neben der zu löschenden Spalte. Nachdem der Spaltenstopp erfolgt ist, klicken Sie in der Liste auf das Tabellenlimit. Um die Spalte zu löschen, klicken Sie in der Liste auf den Spaltenstopp.

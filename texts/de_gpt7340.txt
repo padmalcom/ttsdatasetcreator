@@ -1,0 +1,1 @@
+Im Dialogfeld Importieren werden alle Änderungen automatisch im Dialogfeld Datei hinzufügen zusammengeführt. Sie müssen die Datei nicht extra noch einmal auswählen, sondern kopieren die Änderung per Drag & Drop direkt in die Auswahlmaske.

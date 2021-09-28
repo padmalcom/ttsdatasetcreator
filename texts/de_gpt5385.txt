@@ -1,0 +1,1 @@
+Wenn ich die aktuelle Farbe ändere, ändert sich die Hintergrundfarbe auch auf der Haupt-Detailseite? Warum kann ich meine Farben im Menü nicht ändern? 7: Wenn ich die Schaltfläche „Optionen” unter „Eingabe” wähle, erscheint unter dem Eingabefeld „Schriftart” die Schaltfläche „Vorschau”?

@@ -1,0 +1,1 @@
+Die Konten können nach Dateitypen getrennt werden: iLok, Text, Foto, Video, Audio und mehr. Mit diesen Einstellungen können Sie die Dateigröße jedes einzelnen Dokuments anpassen. Tipp: Verwenden Sie zum Veröffentlichen von Dateien einen Link zu Dropbox oder einen Link im Ordner und klicken Sie anschließend im Feld "Veröffentlichte Dateien" auf Senden.

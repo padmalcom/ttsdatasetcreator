@@ -1,0 +1,1 @@
+In der Datei „/opt/config.sys“ befindet sich eine Tabelle mit den IP-Adressen und deren MAC-Adressen. Jede dieser Adressen lässt sich zu einem Netzwerk zuordnen und so einer Gruppe zuordnen. Alle anderen IP-Adressen werden dabei im gleichen Verzeichnis gespeichert.

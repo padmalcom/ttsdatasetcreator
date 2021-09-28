@@ -1,0 +1,1 @@
+So rufen Sie ein Dropbox-Konto auf Wählen Sie im Menü Ordner auf dem Desktop die Option Ordner aus. Klicken Sie auf Alle Ordner anzeigen. Geben Sie den Namen des Ordners ein, in den Sie Dropbox importieren möchten. So bearbeiten Sie das Feld "Ordner" Geben Sie je nach Bedarf Werte für Unterordner ein, z. B.

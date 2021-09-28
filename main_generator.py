@@ -20,7 +20,7 @@ import webrtcvad
 from scipy.ndimage.morphology import binary_dilation
 import soundfile
 import sys
-import pdfplumber
+import csv
 
 
 # Audio processing
@@ -100,23 +100,29 @@ if __name__ == '__main__':
 	console.print("You have selected [red]%s[/red] as input device." % pyaudio.get_device_info_by_host_api_device_index(0, in_mic_id).get('name'))
 	
 	
-	# 0. select folder to save wavs
-	app_folder = os.path.dirname(os.path.realpath(__file__))	
-	project_folder = os.path.join(app_folder, "samples")
-	console.print("Please select a [red]folder[/red] to save your current session to (default [i]%s[/i])." % project_folder)
-	in_folder = input()
-	if not in_folder:
-		in_folder = project_folder
-	if not os.path.exists(in_folder):
-		os.mkdir(in_folder)
-	else:
-		print("This folder already exists. Metadata will be merged. Is that okay? (y,n)")
-		folder_exists = input()
-		if not folder_exists == 'y' and not folder_exists == 'yes':
-			sys.exit(0)
-		
-	console.print("wavs and transcripts will be saved in [red]%s[/red]" % in_folder)
+	# Select a project folder
+	app_folder = os.path.dirname(os.path.realpath(__file__))
+	project_directories = glob.glob(os.path.join(app_folder, 'project*/'))
 	
+	if len(project_directories) == 0:
+		console.print("There are no project directories. Create a folder starting with 'project' that contains a 'metadata.csv'. This works best using main_generate_csv.py.")
+		sys.exit(0)
+		
+	console.print("Please select a [red]project folder[/red] by entering its id (default 0 (%s))" % project_directories[0])
+	for index, pd in enumerate(project_directories):
+		console.print("%d: %s" % (index, pd))
+	
+	in_folder_id = input()
+	if not in_folder_id:
+		in_folder_id = 0
+	project_folder = project_directories[int(in_folder_id)]
+	
+	metadata_csv_file = os.path.join(project_folder, 'metadata.csv')
+	if not os.path.exists(metadata_csv_file):
+		console.print("Project folder does not contain a metadata.csv file. Exiting.")
+		sys.exit(0)
+	
+	console.print("wavs will be saved in [red]%s" % project_folder)
 	
 	# 0.1 select languages
 	console.print("Please select a [red]language[/red] (default [i]%s[/i])." % 'de')
@@ -124,72 +130,15 @@ if __name__ == '__main__':
 	if not in_lang:
 		in_lang = 'de'
 	console.print("Language is set to [red]%s[/red]." % in_lang)
-	
-	# Save to csv or txt?
-	console.print("Save to [red]csv[/red] or to single [red]txt[/red] file(s)?  (default [i]csv[/i]).")
-	in_text_format = input()
-	if not in_text_format:
-		in_text_format = 'csv'
-	if not in_text_format == 'txt':
-		in_text_format = 'csv'
-	console.print("Format set to [red]%s[/red]." % in_text_format)
-	
-	# continue from a previous session?
-	skip_existing = False
-	new_index = 0
-	if in_text_format == 'csv' and os.path.exists(os.path.join(in_folder, 'metadata.csv')):
-		new_index = sum(1 for line in open(os.path.join(in_folder, 'metadata.csv')))
-		print("The metadata.csv in the target folder has %d lines, [red]skip[/red] the first %d sentences? (y,n)" % (new_index, new_index))
-		skip = input()
-		if skip == 'yes' or skip == 'y':
-			skip_existing = True
-	elif in_text_format == 'txt':
-		new_index = len(glob.glob1(in_folder,"*.txt"))
-		print("There are %d text files in the target folder, [red]skip[/red] %d sentences? (y,n)" % (new_index, new_index))
-		skip = input()
-		if skip == 'yes' or skip == 'y':
-			skip_existing = True
-	
-	# Display files found
-	lang_text_files = glob.glob(os.path.join(app_folder, 'texts', in_lang + '*.txts'))
-	console.print("Found %d text files for %s" % (len(lang_text_files), in_lang))
 				
-	# 1. Show text, sentence by sentence
-	all_texts = ''
-	for tf in lang_text_files:
-		f = open(tf, "r", encoding= 'utf-8')
-		all_texts += f.read() + '\n'
-				
-	# read pdfs
-	lang_pdf_files = glob.glob(os.path.join(app_folder, 'texts', in_lang + '*.pdf'))
-	console.print("Found %d pdf files for %s" % (len(lang_pdf_files), in_lang))
+	# load csv
+	with open(metadata_csv_file, encoding = "utf-8") as csv_file:
+		csv_reader = csv.reader(csv_file, delimiter='|')
+		csv_data = list(csv_reader)
+		
+	console.print("Found %d sentences." % len(csv_data))
 
-	for pdf_file in lang_pdf_files:
-		with pdfplumber.open(pdf_file) as pdf:
-			for page in pdf.pages:
-				page_text = page.extract_text()
-				if page_text:
-					all_texts +=  page_text + '\n'
-	
-	# split texts by sentences
-	if in_lang == 'de':
-		nlp = German()
-	elif in_lang == 'en':
-		nlp = English()
-	elif in_lang == 'fr':
-		nlp = French()
-	else:
-		console.print("The language %s is not supported yet. Please create a github issue." % in_lang)
-		sys.exit(0)
-	
-	nlp.add_pipe('sentencizer')
-
-	doc = nlp(all_texts)
-	all_sentences = [str(sent).strip() for sent in doc.sents]
-
-	console.print("Found %d sentences." % len(all_sentences))
-
-	if len(all_sentences) == 0:
+	if len(csv_data) == 0:
 		console.print("You need to add some sentences to your text files first. Exiting.")
 		sys.exit(0)
 	
@@ -200,19 +149,22 @@ if __name__ == '__main__':
 	input("Press Enter to start")
 	
 	i = 0
-	if new_index > 0 and skip_existing:
-		print("Setting new index to %d" % new_index)
-		i = new_index
 	cancelled = False
-	while i < len(all_sentences):
+	while i < len(csv_data):
 		console.clear()
 		
-		current_sentence = all_sentences[i]
+		current_sentence = csv_data[i][1]
 		current_sentence = current_sentence.replace("\n", " ")
 		current_sentence = current_sentence.replace("\t", " ")
 		
+		# If this wav file has been recorded before, continue
+		wav_file_name = csv_data[i][0]
+		if os.path.exists(os.path.join(project_folder, wav_file_name)):
+			i += 1
+			continue
+		
 		console.print("\n\n" + current_sentence + "\n\n", style = "black on white", justify="center")
-		console.print("(%d/%d) [green]n[/green] = next sentence, [yellow]d[/yellow] = discard and repeat last recording, [blue]s[/blue] = skip, [red]e[/red] = exit recording." % ((i+1), len(all_sentences)))
+		console.print("(%d/%d) [green]n[/green] = next sentence, [yellow]d[/yellow] = discard and repeat last recording, [blue]s[/blue] = skip, [red]e[/red] = exit recording." % ((i+1), len(csv_data)))
 		
 		start_time = time.time()
 		current_time = time.time()
@@ -234,16 +186,11 @@ if __name__ == '__main__':
 				if keyboard.is_pressed('n'):
 					while keyboard.is_pressed('n'):
 						time.sleep(0.1)
-					# Check if a file with the corresponding name already exists
-					recording_index = 0
-					while os.path.exists(os.path.join(project_folder, (str(recording_index) + '.wav').rjust(12, '0'))):
-						recording_index += 1
 		
 					# Write the wav file
 					data = stream.read(chunk)
 					frames.append(data)
 					stream.close()
-					wav_file_name = (str(recording_index) + '.wav').rjust(12, '0')
 					wf = wave.open(os.path.join(project_folder, wav_file_name), 'wb')
 					wf.setnchannels(channels)
 					wf.setsampwidth(pyaudio.get_sample_size(sample_format))
@@ -255,22 +202,7 @@ if __name__ == '__main__':
 					wav, source_sr = librosa.load(str(os.path.join(project_folder, wav_file_name)), sr=None)
 					wav = trim_long_silences(wav)
 					soundfile.write(str(os.path.join(project_folder, wav_file_name)), wav, source_sr)
-										
-					# Write the transcript
-					if in_text_format == 'txt':
-						text_file_name = (str(recording_index) + '.txt').rjust(12, '0')
-						text_file_path = os.path.join(project_folder, text_file_name)
-						if os.path.exists(text_file_path):
-							os.remove(text_file_path)
-						text_file = open(text_file_path, 'a')
-						text_file.write(current_sentence)
-						text_file.close()
-					else:
-						csv_file_path = os.path.join(project_folder, 'metadata.csv')
-						csv_file = open(csv_file_path, 'a')
-						# todo cleanse text
-						csv_file.write(wav_file_name + "|" + current_sentence + "|" + current_sentence + '\n')
-						csv_file.close()
+					
 					i += 1
 					break
 				elif keyboard.is_pressed("s"):

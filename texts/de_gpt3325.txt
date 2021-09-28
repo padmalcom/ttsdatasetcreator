@@ -1,0 +1,1 @@
+Wählen Sie dann „Geräte-Manager“ aus. Wählen Sie alle Apps und Ordner aus. Die Standard-Apps werden nicht gelöscht. Die Apps, die Ihnen gehören, werden in das Verzeichnis „Downloads„ verschoben. Die Apps, die Sie deinstalliert haben, haben keine Ordnerstruktur und werden nicht in das Verzeichnis „Downloads“ verschoben.

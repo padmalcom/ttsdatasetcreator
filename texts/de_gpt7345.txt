@@ -1,0 +1,1 @@
+Diese Lösung ist besonders vorteilhaft, wenn Sie mehrere Computer benutzen. Damit können auch mehrere Benutzer dieselben Dateien herunterladen und anzeigen. Die Dateien werden auf separaten Partitionen verteilt. Die folgende Anleitung bezieht sich auf Microsoft Azure PowerShell, die in der 64 Bit Version von Windows Server verfügbar ist.

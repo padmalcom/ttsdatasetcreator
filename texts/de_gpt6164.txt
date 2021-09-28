@@ -1,0 +1,1 @@
+, Nachname, E-Mailadresse, IP-Adresse, Benutzerpasswort, Benutzername, Nutzername, Username, Datum des Einloggens, Uhrzeit des Loggins, Betriebssystem und Browserversion, Gerätetyp mit Version, Betriebssystem, Sprache und Länderauswahl. Auf unserer Internetseite besteht die Möglichkeit einen Newsletter zu abonnieren.

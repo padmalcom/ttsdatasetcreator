@@ -1,0 +1,1 @@
+3.3.9.1.2 Wählen Sie eine von den unterstützten Bildformaten für Ihre Publikation aus Wählen Sie im Hauptmenü "Datei" "Neu" oder "Datei" > "Grafik importieren" > "Datei auswählen" Wählen Sie das gewünschte Grafikformat aus, indem Sie im Hauptmenü auf "Grafik importieren" klicken.

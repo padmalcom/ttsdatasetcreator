@@ -1,0 +1,1 @@
+Es kann jeder Text- oder Variablen-Typ sein. Aber wir werden uns nur auf den BASIC-Compiler in unserem Beispiel konzentrieren. Wie Sie gleich sehen, ist es auch möglich einfache Programme mit BASIC zu schreiben. Das sind vor allem simple Text- oder Text-Stray-Anweisungen. Was haben wir denn in den letzten Abschnitten gemacht?!

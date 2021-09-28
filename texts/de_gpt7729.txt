@@ -1,0 +1,1 @@
+Dies muss an der Benutzeroberfläche des Unternehmens ersichtlich sein, das heißt entweder im Lizenzmanager des Systems oder beim Software-Download selbst. Der Lizenzschlüssel sollte außerdem die genaue Hardware-Ausstattung des Firmenrechners beinhalten. Softwareprogramme, die nach Ablauf der Lizenz nicht mehr benötigt werden, müssen beim Hersteller gekündigt werden.

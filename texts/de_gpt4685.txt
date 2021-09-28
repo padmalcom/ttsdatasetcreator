@@ -1,0 +1,1 @@
+Ein CMS bietet ein Online-Redaktionssystem an, wodurch man viele Aufgabenbereiche automatisiert ausführen kann. Dadurch erhält man sehr viel mehr Kontrolle über den Inhalt einer Website und kann viele Funktionen einfach und schnell in die Webseite integrieren.

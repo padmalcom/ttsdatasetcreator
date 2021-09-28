@@ -1,0 +1,1 @@
+Kann ich das Bild in die Kamera einlesen? Ich habe das mal versucht, ging nicht. wenn die Kamera selbst eine RAW-Datei hat, dann geht das natürlich. Dafür gibt es in den allgemeinen Bearbeitungsmöglichkeiten den Befehl Rohdaten öffnen. Dort hast du die Möglichkeit, ein JPEG-Bild anzuhängen und zu bearbeiten.

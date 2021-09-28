@@ -1,0 +1,1 @@
+2 5.1.1 Spieler wird eine Mitteilung über die Möglichkeit der Online-Authentifizierung und das Verfahren, mit dem diese ermöglicht wird, vom Verkäufer übermittelt.

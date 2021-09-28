@@ -1,0 +1,1 @@
+ in der Seite installiert. Über diese Extension können Sie die Einstellungen des Plugins steuern. Sie können eigene Inhalte definieren und auch die Anzeige und Änderung der Navigation anpassen. Außerdem kann Sie diese Extension für Ihre Joomla!-Seite zur Verfügung stellen, die beim Zugriff der Joomla!

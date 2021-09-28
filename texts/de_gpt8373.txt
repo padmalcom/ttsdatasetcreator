@@ -1,0 +1,1 @@
+In diesem Fall wird der Assistent nicht beim Import von Dokumenten in Citavi geöffnet.

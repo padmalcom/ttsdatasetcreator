@@ -1,0 +1,1 @@
+Die Formulareingabe-Schaltfläche erscheint beim Erstellen eines Formular- oder Formularanmeldungsformulares. Geben Sie diese Schaltfläche ein, um einen Text einzugeben. Die Texteingabe-Schaltfläche wird beim Erstellen eines Formular- oder Formularanmelderungsformulares geöffnet. Geben Sie diesen Text ein, um ein Formularvorlageelement zu öffnen.

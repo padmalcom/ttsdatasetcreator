@@ -1,0 +1,1 @@
+Du möchtest das Freistellwerkzeug für Fotos und andere Bilder benutzen? Die neue Ansicht beim Freistellen von Fotos und anderen Bildern Der Rahmen wird nun nicht mehr als einzelnes Bild angezeigt, sondern als Bild mit einem Rahmen, und diese lassen sich durch Klicken mit der Maustaste ganz leicht vergrößern.

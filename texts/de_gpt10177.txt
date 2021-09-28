@@ -1,0 +1,1 @@
+Diese App beinhaltet allerdings keine Funktion zum Erstellen von Newslettern. Somit kann man keinen Newsletter erstellen. Es werden lediglich Artikel und Produkte in der passenden Kategorie als „Inbox“ gelistet. Der Aufbau der App ist recht simpel: Über die Icons wird die Übersichtsseite im WooCommerce-Template angezeigt. Auf diese kann verlinkt werden.

@@ -1,0 +1,1 @@
+Wählen Sie in einem Menü den Eintrag „Einstellungen ...“, wechseln Sie zum Reiter „Internetoptionen“. Aktivieren Sie die Option „Erweiterten Einstellungen anzeigen“ für die Erweiterung „Sortieren und filtern“. Weitere Informationen finden Sie unter „Sortieren und filtern“ in den entsprechenden Abschnitten dieses Tutorials.

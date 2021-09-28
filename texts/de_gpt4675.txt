@@ -1,0 +1,1 @@
+Zudem sind die Kosten für den IT-Verantwortlichen enorm. Ein einfaches Backup-Szenario würde im schlimmsten Fall die Kosten eines zweiten physischen Servers mit sich bringen. Die Kombination aus Cloud-Diensten, einer externen Festplatte und mobilen Datenspeichersystemen bietet die volle Flexibilität.

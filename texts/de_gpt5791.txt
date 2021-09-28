@@ -1,0 +1,1 @@
+Wenn Sie unsere Internetseiten aufrufen, die ein solches Plugin enthalten, wird eine Verbindung zwischen Ihrem Browser und dem Server von Google hergestellt. Das Plugin informiert den Browser des Nutzers über unsere Online-Präsenz. Hierbei können aus technischen Gründen Informationen wie Ihre IP-Adresse an Google in den USA übertragen werden.

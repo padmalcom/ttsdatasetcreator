@@ -1,0 +1,1 @@
+Seite bearbeiten: Diese Option ermöglicht es Nutzern, den Google Webmaster-Tools-Berichte zu lesen und auf eine bestimmte Liste von Seiten zuzugreifen. Wenn Sie die Einstellungen über "Site Config" bearbeiten, können Sie einige Einstellungen in Ihrer Google Webmaster-Tools-Benutzeroberfläche ändern.

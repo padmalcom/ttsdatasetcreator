@@ -1,0 +1,1 @@
+Stellen Sie sicher, dass Bluetooth aktiviert ist. Verwenden Sie das Bluetooth-Kabel Ihres Sony Android Handys, um das Telefon zu verbinden. Halten Sie anschließend die Ein- / Ausschalttaste gedrückt. Nach circa 30 Sekunden blinken alle zwei Sekunden alle vier Bluetooth-LEDs nacheinander auf.

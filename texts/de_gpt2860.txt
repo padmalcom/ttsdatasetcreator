@@ -1,0 +1,1 @@
+Da die Anwendung aber hauptsächlich in der Lage ist, sich durch alle Kategorien eines Textes zu navigieren, beschränken wir uns hier auf die Kategorien „E-Books“, „Bücher“ und „Kurse“.

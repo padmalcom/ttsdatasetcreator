@@ -1,0 +1,1 @@
+Ja. 1. Warum wird meine Download-Geschwindigkeit während des Herunterladens gemessen? Damit unsere Entwickler die Download-Geschwindigkeit anpassen können, wird Ihre Download-Geschwindigkeit mit unseren Software-Tests verbunden. In der Vergangenheit wurden die Download-Speeds aus verschiedenen Gründen gejuckt.

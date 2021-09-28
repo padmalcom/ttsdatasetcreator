@@ -1,0 +1,1 @@
+Hinweis: Beim Hochladen eines Formularvorlageelements werden die Vorlagen und das Formularvorlageelement auf den Server geladen, auf dem sie aktuell gespeichert sind. Klicken Sie auf der Registerkarte Optionen auf Formular erstellen. Geben Sie den Datentyp und den Datenabschnitt oder die Felder ein. Der Eingabebereich wird im Hintergrund ausgeführt.

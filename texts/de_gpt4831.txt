@@ -1,0 +1,1 @@
+Was ist bei der Auswahl eines IoT-Partners zu beachten? Unternehmen möchten ein sicheres IoT-System, für das nur autorisierte Benutzer bzw. Endgeräte Zugriffsmöglichkeiten haben.

@@ -1,0 +1,1 @@
+. Benutzer, deren Symbolleisten kleiner als die Standardgröße sind, können das Bild eines Symbols mit dieser Größe nicht anzeigen.

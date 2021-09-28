@@ -1,0 +1,1 @@
+Bei all den Vorschlägen muss ich mir überlegen, welchen Bereich ich damit ansteuern muss: die Navigation, der Hintergrund oder die Menüleiste. Und wenn ich den IE6 einsetze, dann auch gleich die Menüs, die mir gerade angezeigt werden sollen.

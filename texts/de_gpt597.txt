@@ -1,0 +1,1 @@
+. Die Daten des Cloud-Diensts werden in Ouya Cloud Photo Storage® gespeichert, einer sicheren Website, die den Benutzern den Zugriff auf die Daten erlaubt, die auf der Dropbox oder einer anderen Online-Speicherplattform gespeichert sind.

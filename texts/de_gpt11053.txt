@@ -1,0 +1,1 @@
+Geben Sie im Dialogfeld Anpassen an, welche PDFs und wie diese Felder mit der Liste zusammengefügt werden sollen. Wenn Ihr PDF mit einem anderen Textformat formatiert wurde, müssen Sie dieses Format in eine Standardoption ändern.

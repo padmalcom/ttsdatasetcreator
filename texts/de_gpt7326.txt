@@ -1,0 +1,1 @@
+Eine der Optionen ist die Auswahl von Spalten in der Benutzeroberfläche des SQL-Server und damit die Möglichkeit, Daten über SQL-Server abzurufen. Wenn diese Spalte nicht vorhanden ist, öffnet sich mit dem Drücken auf die Schaltfläche “Einfügen” das entsprechende Formular.

@@ -1,0 +1,1 @@
+Wenn Sie eine oder mehreren Symbolleisten ändern möchten, markieren Sie eine der bereits vorhandenen und ziehen Sie einen Platzhalter hinter die bestehende Stelle. Zum Speichern der Änderungen klicken Sie auf OK. Hinweis: Symbolleisten können nur dann geändert werden, wenn der Benutzer und die Symbolleiste, auf die Sie verweisen, das gleiche Zeichen verwenden.

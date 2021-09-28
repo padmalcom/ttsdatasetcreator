@@ -1,0 +1,1 @@
+Um eine Buchung zu tätigen, muss die internationale Kontonummer bei der Kontoeröffnung gewählt werden. Was passiert mit meinen bisherigen Einnahmen/Ausgaben als Teil der Transaktion? Wenn wir unseren Kontostand als Beleg benötigen, verwenden wir den von unserer Bank ausgestellten Zahlungsbeleg, bei dem alle Zahlungsdetails angegeben sind.

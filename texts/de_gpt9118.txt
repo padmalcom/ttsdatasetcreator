@@ -1,0 +1,1 @@
+ in Verbindung mit einer 256-Bit AES-Verschlüsselung. Dies gilt insbesondere für Ihre Anfrage über das Kontaktformular. Die Übermittlung Ihrer personenbezogenen Daten an unsere Website verschlüsselt erfolgt, insbesondere bei Bestellungen über das Kontaktformular, mittels einer 128-Bit-SSL-Verschlüsselung.

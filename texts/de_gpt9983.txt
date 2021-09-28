@@ -1,0 +1,1 @@
+Im folgenden Screencast gibt es eine kurze Erklärung zum HTML-Editorfenster: Das ist unser Beispiel. In diesem Beispiel wird der HTML-Editor von links nach rechts durchgeblättert und durch die Eingabebefehle navigiert. Durch den Klick auf das entsprechende Symbol kann man im Editor z.B. Bilder einfügen, verschieben oder löschen.

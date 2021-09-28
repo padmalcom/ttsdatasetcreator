@@ -1,0 +1,1 @@
+Falls diese Einstellungen nicht angezeigt werden oder wenn du einfach nur die Anzahl der Zeilen der Auswahlliste ändern möchtest, dann ändere die Einstellung einfach mit code:BETA4DEU. Nachdem die Wetten abgeschlossen wurden, kannst du mit data:POST eine beliebige E-Mail Adresse angeben, auf welche wir dir die Statistiken der einzelnen Wettquoten zusenden.

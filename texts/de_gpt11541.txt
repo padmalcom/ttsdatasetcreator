@@ -1,0 +1,1 @@
+Im nächsten Kapitel sollen wir uns dann ein Programm schreiben. Hier wird es um einen Computer gehen, der auf dem Bildschirm die Informationen zu einer Zahl ausspuckt. Das Programm soll in einer BASIC-ähnlichen Programmiersprache entwickelt werden.

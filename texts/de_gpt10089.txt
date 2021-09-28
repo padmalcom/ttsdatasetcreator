@@ -1,0 +1,1 @@
+Ich denke aber mal dass die Umstellung der Konfigurationsdatei ein Problem darstellt. Wie Du schreibst, hast Du die Plugin. Extension über die Console aktiviert und sie im Backend aktiviert. Das wird leider nicht funktionieren können.

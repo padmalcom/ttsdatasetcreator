@@ -1,0 +1,1 @@
+Beachten Sie, dass Änderungen, die Sie mit tar ausführen, erst mit dem nächsten Aufruf aktiviert werden: In diesem Dialogfeld wird die FPGA-Option zur Steuerung der FPGAs angegeben. Der Benutzername und das Passwort sind in dieser Option nicht enthalten.

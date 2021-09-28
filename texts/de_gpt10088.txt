@@ -1,0 +1,1 @@
+Die Console-Tabelle beinhaltet den Link: In den Einstellungen des Plugins habe ich folgendes eingetragen: Mit Hilfe der "config.xml" ist dies ja alles kein Problem. Jedoch, wenn ich dann im Browser die Seite aufrufe, bekomme ich wieder die Console-Tabelle zu sehen.

@@ -1,0 +1,1 @@
+Sie müssen diese Funktion zunächst ab- und wieder einschalten. Die Windows-Firewall wird nicht sofort beim ersten Login nach Eingabe des Benutzernamens und Kennworts vom System eingeschaltet. In den meisten Fällen genügt es, den PC neu zu starten und die FW-Funktion erneut auszuwählen.

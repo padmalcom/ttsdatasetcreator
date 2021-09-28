@@ -1,0 +1,1 @@
+Damit ist man bei jeder Zahlung der Kartennummer geschützt, da sie nicht gespeichert wird. Ein Beispiel ist der Versand eines Gutscheins. Diese Funktion ist zum Beispiel von Paysafecard.de oder Paysafecard.fr.

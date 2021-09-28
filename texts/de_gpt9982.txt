@@ -1,0 +1,1 @@
+Eine sehr praktische Funktion, die im Grunde jeder Browser kann. Und das ist noch nicht Alles… Wie bei den meisten Funktionen dieser Art, benötigt der IE7 auch einen CSS-Editor. Dieser muss als erstes installiert werden, wenn man diesen Browser nutzen möchte. Das Herunterladen des HTML-Editors ist ebenfalls schnell gemacht. Das Laden des HTML-Editors dauert nur wenige Minuten.

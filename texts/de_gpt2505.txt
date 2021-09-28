@@ -1,0 +1,1 @@
+Die Menüleiste ist praktisch, übersichtlich und in die Seite integriert. Das Hauptbanner ist eines von drei verfügbaren Bannern. Die übrigen beiden sind für die mobile Nutzung reserviert. Die App wird durch eine Menüleiste mit allen wichtigen Funktionen angezeigt, so dass sich der Nutzer nicht durch lange Ladezeiten abschrecken lässt.

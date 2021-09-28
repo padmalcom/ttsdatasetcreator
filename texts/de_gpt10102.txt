@@ -1,0 +1,1 @@
+. Tragen Sie im Feld Beschreibung hier z.B.: „Beschreibung“ oder „Kategorie“ ein, um eine Beschreibung zu definieren. In Kategorie „Kategorien“ werden alle Kategorien und Unterkategorien eines Shopsystems angezeigt. Diese können Sie individuell konfigurieren.

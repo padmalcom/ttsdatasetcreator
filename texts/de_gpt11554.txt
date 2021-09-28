@@ -1,0 +1,1 @@
+. Im Bereich Netzwerkeinstellung kann nun nach IP-Adressen der einzelnen Geräte gesucht werden. Die IP-Adresse eines Gerätes findet man in der Menüleiste unter Netzwerkverbindungen → Netzwerkgeräte. Ist auf ein Gerät nun nur eine IP-Adresse zugewiesen (z.B. in der FRITZ! Box von FRITZ!

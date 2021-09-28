@@ -1,0 +1,1 @@
+Sie finden eine Anleitung im Beitrag SSL-Zertifikate in Thunderbird konfigurieren. Alternativ können Sie den Ordner „Gesendet“ auf dem Server des Empfängers löschen.

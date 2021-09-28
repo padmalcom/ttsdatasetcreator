@@ -1,0 +1,1 @@
+Der Verbraucher kann bei einer Zahlung die üblichen Zahlungsmittel wählen: Kreditkarte, Rechnungskauf. Das Unternehmen führt eine Prüfung der eingegangenen Online-Zahlungen durch. Wenn das PayPal-System feststellt, dass die Sicherheit des Online-Zahlungsverkehrs inakzeptabel ist, kann das Unternehmen den Zugang zum Portal vorübergehend oder dauerhaft sperren.

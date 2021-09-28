@@ -1,0 +1,1 @@
+Klicken Sie auf die Registerkarte "Entwurf". Klicken Sie auf das Word-Symbol, und wählen Sie im Menü Bearbeiten die Option "Optionen" und dann den Befehl "Neu". Klicken Sie auf die Registerkarte "Datei" oder "Excel". Wählen Sie im Menü Bearbeiten die Option "Dokumentvorlage" oder öffnen Sie die Registerkarte "Dokumentvorlagevorlage" im Menü "Datei" unter Windows XP.

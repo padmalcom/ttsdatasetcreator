@@ -1,0 +1,1 @@
+Auch eine Mail, die Sie einem Freund zusenden, ist dann eine Kopie der Mail, an die Sie Ihr Original gesendet haben. Was versteht man unter dem SMTP Protocol? Der SMTP Protocol-Standard ist ein Protokoll für den E-Mail-Austausch zwischen Mailprogrammen. Das Protokoll ist ein Teil des TCP/IP-Protokolls, das sich ebenfalls der Zustellung von Daten im Internet widmet.

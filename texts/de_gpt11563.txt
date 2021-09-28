@@ -1,0 +1,1 @@
+Labor hat den FRITZ! Box-Treiber aktualisiert. Damit können Nutzer die WLAN-Abdeckung ihrer FRITZ! Box nun mit Hilfe eines VPN-Ports weiter vereinfachen und automatisieren. Die neue FRITZ!

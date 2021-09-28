@@ -1,0 +1,1 @@
+ für die neue Klasse immer zwingend erforderlich ist. Nach dem Start des neuen Moduls erscheint folgender Bildschirm im Browser: Das nachfolgende Bild zeigt die neue Klasse: Alle weiteren Details findet ihr in der Dokumentation des Moduls.

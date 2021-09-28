@@ -1,0 +1,1 @@
+Dennoch können Sie bestimmte Daten Ihres Browsers, also die IP-Adresse und damit verbundene Informationen, speichern, doch diese werden in der Regel bei jedem Seitenaufruf von Google erneut abgerufen und können dort von Google gespeichert werden.

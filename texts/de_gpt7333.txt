@@ -1,0 +1,1 @@
+Wechseln Sie in den Menübereich "Bearbeiten" und anschließend auf "Alle Zellen auf einen Blick". Falls das Dialogfeld "Gruppenübersicht" nicht angezeigt wird, klicken Sie bitte auf das Feld "Tabelle einfügen" neben "Gruppenübersicht" im Navigationsbereich. Sie können einzelne Zellen als Gruppendokumente oder Gruppendokumente hinzufügen und zu der Gruppe hinzufügen.

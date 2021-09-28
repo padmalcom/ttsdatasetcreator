@@ -1,0 +1,1 @@
+Um ein Spiel mit einem Offline-Stand beenden oder sich für ein anderes Spiel registrieren zu können, muss der Spieler auf seine Online-Zugangsinformationen zugreifen. Die Spielergebnisse und Spielstände verlieren niemals ihre Gültigkeit.

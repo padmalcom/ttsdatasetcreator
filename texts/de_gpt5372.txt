@@ -1,0 +1,1 @@
+Um die Umsetzung der DSGVO zu erleichtern, haben die beiden Länder ihre Datenschutzvorgaben harmonisiert. Die DSGVO betrifft alle Unternehmen, die personenbezogene Daten verarbeiten. Für die meisten Anwendungsfälle ist eine Datenverarbeitung durch natürliche Personen nach wie vor ohne weiteres ausreichend. Was beinhaltet die Richtlinie für Cloud-Anbieter?

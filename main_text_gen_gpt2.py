@@ -69,10 +69,10 @@ if __name__ == '__main__':
 	texts_folder = os.path.join(app_folder, "texts")
 	
 	table = Table()
-	table.add_column("TSS Dataset Collector", style="cyan")
+	table.add_column("TSS GPT Text Generator", style="cyan")
 	table.add_row("2021 - padmalcom")
 	table.add_row("www.stonedrum.de")
-	table.add_row("This tool collects texts from wikipedia and requires internet connection.")
+	table.add_row("This tool generates texts using GPT-2 language models.")
 	
 	# Select language
 	default_lang = 'de'
@@ -81,7 +81,7 @@ if __name__ == '__main__':
 	if not in_lang:
 		in_lang = default_lang
 		
-	if not in_lang in wikipedia.languages():
+	if not in_lang in ['de', 'en', 'fr']:
 		console.print("Language [red]%s[/red] is not supported by wikipedia." % in_lang)
 		sys.exit(0)
 		
@@ -105,15 +105,16 @@ if __name__ == '__main__':
 	# split texts by sentences
 	if in_lang == 'de':
 		nlp = German()
-		pipe = pipeline('text-generation', model="dbmdz/german-gpt2", tokenizer="dbmdz/german-gpt2")
+		#pipe = pipeline('text-generation', model="benjamin/gerpt2-large", tokenizer="benjamin/gerpt2-large", device = 0)
+		pipe = pipeline('text-generation', model='Tanhim/gpt2-model-de', tokenizer='Tanhim/gpt2-model-de')
 		text = pipe("Der Sinn des Lebens ist es", max_length=100)[0]["generated_text"]
 	elif in_lang == 'en':
 		nlp = English()
-		pipe = pipeline('text-generation', model="gpt2")
+		pipe = pipeline('text-generation', model="gpt2", device = 0)
 		text = pipe("The meaning of life is", max_length=100)[0]["generated_text"]
 	elif in_lang == 'fr':
 		nlp = French()
-		pipe = pipeline('text-generation', model="antoiloui/belgpt2", tokenizer="antoiloui/belgpt2")
+		pipe = pipeline('text-generation', model="antoiloui/belgpt2", tokenizer="antoiloui/belgpt2", device = 0)
 		text = pipe("Le sens de la vie est", max_length=100)[0]["generated_text"]		
 	else:
 		console.print("The language %s is not supported yet. Please create a github issue." % in_lang)
@@ -137,14 +138,23 @@ if __name__ == '__main__':
 	# Generate as much text as desired
 	files_written = 0
 	#for n in track(range(in_file_count), description="Processing..."):
-	for n in range(in_file_count):
+	n = 0
+	while n < in_file_count:
 		
 		console.print("(%d/%d) Processing sentence ..." % ((n+1), in_file_count))
 		
 		# Generate new sentences based on the last n characters
-		prefix = gen_sentence[-min(200, len(gen_sentence)):]
+		prefix = gen_sentence[-min(300, len(gen_sentence)):]
 		#console.print("Using prefix [green]%s[/green] of text [green]%s[/green] for generation." % (prefix, gen_sentence))
-		text = pipe(prefix, max_length=200)[0]["generated_text"]
+		gen_result = pipe(prefix, max_length=150)
+		if len(gen_result) > 0:
+			text = pipe(prefix, max_length=150)[0]["generated_text"]
+		else:
+			continue
+			
+		if len(text) == 0:
+			print("No valid output was generated. Please restart.")
+			sys.exit(0)
 		
 		# cut the prefix
 		text = text[len(prefix):]
@@ -179,6 +189,7 @@ if __name__ == '__main__':
 		text_file.write(gen_sentence)
 		text_file.close()
 		files_written += 1
+		n += 1
 	
 	console.print("%d files were written." % files_written)
 		

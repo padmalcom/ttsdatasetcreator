@@ -1,0 +1,1 @@
+ können auch SMS oder Alerts auf Deiner Website eingebaut werden. Neben dem Alert-System gibt es aber auch noch andere Wege der Alerting-Liste, z.B. den Newsletter, Push-Nachrichten oder auch die automatische Beantwortung von E-Mails.

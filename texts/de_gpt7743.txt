@@ -1,0 +1,1 @@
+Wählen Sie ein Bildformat aus, indem Sie im Hauptmenü auf "Datei" > "Grafik importieren" > "Datei auswählen" klicken.

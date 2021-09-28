@@ -1,0 +1,1 @@
+WLAN-Funktion aktivieren und deaktivieren Bei WLAN-Verbindung auf meinem Android-Gerät müssen Sie die WLAN-Funktion aktivieren. Hinweis: Eine WLAN-Funktion zu aktivieren, ist nicht standardmäßig verfügbar. Falls Sie die Funktion nicht manuell aktivieren können, wählen Sie in den Einstellungen im Bereich „Verbindung“ die Option WLAN-Funktionen.

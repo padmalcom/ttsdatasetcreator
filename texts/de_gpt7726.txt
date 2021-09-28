@@ -1,0 +1,1 @@
+Wenn du das Symbol des Dateinamens oder der Dateiendung änderst, wird die Änderung sofort auf alle anderen Einträge im Menü angewendet.

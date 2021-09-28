@@ -1,0 +1,1 @@
+Zum Hinzufügen oder Ändern von Zellen klicken Sie auf den Pfeil , und klicken Sie auf den Namen der Zelle, wählen Sie Zelltyp aus und klicken Sie auf Einfügen. Um eine neue Zeile einzufügen, klicken Sie auf Zellen einfügen oder einen Spaltennamen eingeben neben die Zelle und drücken Sie dann die Maustaste , um den Zell- oder Spaltennamen zu ändern.

@@ -1,0 +1,1 @@
+Und zwar wird man in der nächsten Aufgabe auch den Befehl GD.INI kennen, der von D.iNFO erstellt wird und für die Verwendung des GUIs ist. In der Datei GD.INI werden alle verfügbaren Funktionen in C++, also auch der GD.INI-Service, gespeichert. Der D.iNFO-Dienst ist eine wichtige Funktion, die für die Installation der GUI benötigt wird.

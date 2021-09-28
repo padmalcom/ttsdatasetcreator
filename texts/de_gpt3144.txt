@@ -1,0 +1,1 @@
+ Unsere Webseite nutzt die SSL-Verschüsselungskomponente „Sichere Verbindung“ der Firma 1&1 Internet SE, Elgendorfer Str. 57, 56410 Montabaur. Die durch die SSL-Verschüsselung verarbeiteten Daten sind für Dritte nicht einsehbar. Sie können in Ihrem Browser JavaScript deaktivieren.

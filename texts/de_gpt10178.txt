@@ -1,0 +1,1 @@
+Man kann dann Artikel in mehreren Kategorien zusammenfassen und in die eigene Kategorie übertragen. Im Detail sieht das dann folgendermaßen aus: Mit dem Woocommerce-Template werden alle Inhalte zu den vorhandenen Kategorien übernommen. Darüber hinaus kannst du dir weitere Kategorien individuell gestalten. So kannst du die Navigation und das Design deinen Vorstellungen anpassen.

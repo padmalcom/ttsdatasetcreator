@@ -1,0 +1,1 @@
+Wenn Sie diese Option festlegen wollen, klicken Sie zunächst in der Liste auf die gewünschten Felder: Tragen Sie hier ein, falls kein Text zu der entsprechenden Spalte hinzugefügt werden soll, Tragen Sie hier ein, wenn die Spalte direkt mit dem Namen der Gruppe verknüpft ist. Wenn nicht, werden die Felder mit der Nummer der Liste zugeordnet.

@@ -1,0 +1,1 @@
+ oder eines Lichtzählers während des Ladevorgangs ermöglicht. Mit der automatischen Erkennung der aktuellen Höhe der Lampe können außerdem auch kleinere Fehler leicht erkannt werden.

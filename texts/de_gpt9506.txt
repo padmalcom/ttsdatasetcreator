@@ -1,0 +1,1 @@
+3. Stellen Sie sicher, dass die Windows Einstellungen „Fenster schließen / Taskverwaltung“ angezeigt wird. Klicken Sie dann auf „Aus“ und stellen Sie das Systemfenster „Windows 7 oder weniger“ ein. 1. Klicken Sie auf die „Einstellungen“-Registerkarte „Start“ und dann links oben auf „Start“. 2. Wählen Sie „Start“ und klicken Sie anschließend oben in der Leiste auf „Erweitert“.

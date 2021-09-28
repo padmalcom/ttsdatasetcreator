@@ -1,0 +1,1 @@
+Wählen Sie in der linken DropDown-Liste den Eintrag "BenutzerID" aus dem Fenster "BenutzerID/Benutzerbestätigung/" aus dem Menüpunkt "Benutzer " aus, um die Liste der Benutzer zu lesen, in der Sie die Optionen wählen können.

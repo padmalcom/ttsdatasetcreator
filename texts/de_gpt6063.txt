@@ -1,0 +1,1 @@
+1.5. Der Kunde kann die Zahlung per Überweisung, Lastschrift, Paypal durchführen. Für bestimmte Bezahlmethoden erhebt der Online-Shop bei Vertragsabschluss jeweils vom Kunden eine Gebühr in Höhe von 2% des Rechnungsbetrages pro Zahlungsart, mindestens jedoch 5€ pro Bestellung. Die Rechnung wird dem Kunden zusammen mit der Lieferung per eMail zugestellt.

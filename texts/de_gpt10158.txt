@@ -1,0 +1,1 @@
+Bin gespannt, was der Herbst bringt. Ich vermute bei den Schwarzwerten geht es nicht um verschiedene Farbbereiche sondern um das Rot, weil bei rot ja weniger Farben vorhanden sind. Die Farbanpassung für eine bestimmte Szene steht immer an erster Stelle des Color Settings. Wie auch bei den Farbabstimmungen kann man z.B. die Intensität der Helligkeit stufenlos dimmen.

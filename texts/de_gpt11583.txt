@@ -1,0 +1,1 @@
+Google Maps wird nicht verwendet, da nur ein Routenplaner von Maps angezeigt werden kann. Weitere Informationen hierzu finden Sie unter Datenschutz von Google: https://policies.google.com/privacy?hl=de. Für einen besseren Überblick kann auch eine Karte in der Kartenansicht gewählt werden, die über das Datenschutzsymbol des Browsers aufgerufen wird.

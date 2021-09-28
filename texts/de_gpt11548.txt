@@ -1,0 +1,1 @@
+, um den Windows Explorer zu öffnen. Starten Sie Windows und öffnen Sie anschließend mit einem Doppelklick die Systemsteuerung. Klicken Sie nun auf "Systemsteuerung".

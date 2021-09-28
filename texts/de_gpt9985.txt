@@ -1,0 +1,1 @@
+". Auf diese Weise bietet man den Usern an, weitere Informationen zur Seite anzugeben. Alternativ kann man auch einen eigenen Titel eingeben. Bei der Eingabe eines Ordners in der Listenansicht werden die darin enthaltenen Ordner beim Einfügen von neuen Dateien sofort angezeigt.

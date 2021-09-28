@@ -1,0 +1,1 @@
+Der Bildschirm reagiert zu langsam. Windows zeigt keine Hintergrundfarben mehr an. Wenn die Bildschärfe zu niedrig ist, kann das ein Problem sein, wenn die Bildschirmansicht auf einer flachen Oberfläche zu schwach ist.

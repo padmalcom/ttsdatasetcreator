@@ -1,0 +1,1 @@
+An dieser Stelle wird es schon schwieriger, denn die Installation des D.iNFO-Servers kann nicht auf Standardwert umgestellt werden.

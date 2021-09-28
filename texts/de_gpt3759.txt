@@ -1,0 +1,1 @@
+Für eine Fahrt kann der Fahrkartenautomat mit einem kleinen Knopf an jedem einzelnen Waggon des Unternehmens bedient werden. Die dafür benötigte Zeit kann dabei unterschiedlich ausfallen. Während für die Bearbeitung eines einzelnen Fahrscheins in der Regel 15 Minuten benötigt werden, kann es bei der Bearbeitung mehrerer Fahrten zu längeren Wartezeiten kommen.

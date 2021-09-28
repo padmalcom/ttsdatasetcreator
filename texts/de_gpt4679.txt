@@ -1,0 +1,1 @@
+Sie benötigen keine eigene IT Infrastruktur, sondern nutzen das Internet, um von dort Ihre Daten zu speichern, darauf zuzugreifen und diese dort zu bearbeiten. Damit Ihnen die Entscheidung für einen eigenen Server besser fällt, möchten wir hier einige Punkte näher beleuchten, damit in der Entscheidungsfindung die richtige Grundlage geschaffen wird.

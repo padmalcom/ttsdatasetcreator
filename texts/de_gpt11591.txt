@@ -1,0 +1,1 @@
+Als nächstes richten wir uns ein Passwort ein und speichern die Änderungen. In beiden Fällen muss in der Firewall die IP-Adresse des jeweiligen Clients angegeben werden. In der Firewall und den Protokollen müssen wir dafür sorgen, dass der Port 587 offen ist. In unserem Fall sollte also der Port 587 nicht mehr genutzt werden, es werden lediglich neue Verbindungen angenommen.

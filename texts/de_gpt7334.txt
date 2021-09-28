@@ -1,0 +1,1 @@
+. Nach Bestätigung öffnet sich ein Dialogfeld mit den folgenden Informationen: Gruppen: Gruppierung der Zelle und die Eigenschaften der Gruppe. Das Dialogfeld kann keine Aktionen ausführen, die in der Registerkarte "Tabelle" ausgeführt werden. Wenn Sie die Spalte "Name" auswählen, wählen Sie in der Zelle: Klicken Sie auf die Schaltfläche Gruppe.

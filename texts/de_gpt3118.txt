@@ -1,0 +1,1 @@
+Was versteht man unter einem Template? Eine Template-Datei ist eine XML-Datei, die als Quelltext auf einer Website zur Verfügung steht und bei ihr handelt es sich um einen kompletten Datensatz in HTML-Format. Diesen Datensatz gibt es in verschiedenen Formaten.

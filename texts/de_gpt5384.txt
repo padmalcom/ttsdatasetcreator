@@ -1,0 +1,1 @@
+1: Wie kann ich mehrere Papierstücke mit unterschiedlichen Längen miteinander verbinden? 2: Was ist der Unterschied zwischen dem Ausklappmenü unter dem Tortensymbol, und dem Tortenmodul unter der Torten-Vorschau? Beim Ausklappmenü handelt es sich um ein Tool zum Aufrufen und Bearbeiten von einzelnen Tortenelementen.

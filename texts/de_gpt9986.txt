@@ -1,0 +1,1 @@
+Dazu gibt es zwei Varianten: Die Optionen sind etwas versteckt: Mit Hilfe der Optionen kann man alle Seiten, die man in der Seitenleiste anzeigen möchte einblenden. Wenn man in der Seitenleiste auf den Pfeil rechts neben der Seite klickt, dann öffnet sich die Details-Ausgabe der Seite. Auf jeder Seite befindet sich ein Menü mit unterschiedlichen Funktionen.

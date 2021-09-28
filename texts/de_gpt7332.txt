@@ -1,0 +1,1 @@
+Mit einem Klick auf eine Zelle neben der Zelle können Sie die Zellausrichtung ändern. Dies können Sie auch in einer Zelle durchführen, die nicht an einer Gruppenübersicht, Gruppendokumente oder einer Zellumbenennung beteiligt ist.

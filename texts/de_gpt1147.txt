@@ -1,0 +1,1 @@
+Mit solchen Sachen, die ein normales Programm mit einem solchen Namen an den Programm-Ordner schreiben kann, kann man ein solches Programm nicht einfach zum Beispiel beim Start starten. Es gibt Programme, die du im Windows Explorer ganz normal an den entsprechenden Ordner hängen kannst, und dann wird die eigentliche Datei auf den Drucker gespeichert.

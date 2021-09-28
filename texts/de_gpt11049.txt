@@ -1,0 +1,1 @@
+Wenn Sie Probleme mit dem Schreiben eines einzigen Word-Dokuments mit der Openoffice.org-Textverarbeitung haben, versuchen Sie Folgendes: 1. Öffnen Sie "Start" > "Ausführen", geben Sie den Befehl Ein Verzeichnis "OpenOffice.org - Office" erstellt. 2. Drücken Sie die Entf-Taste.

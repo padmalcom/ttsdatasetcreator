@@ -1,0 +1,1 @@
+Dort wechseln Sie zum Befehl "Konfiguration". Hier sehen Sie auch die PowerShell-Datei und die darin enthaltenen Konfigurationsdateien. Wie Sie auf der Beispiel-CD sehen, findet dies in einer Standardkonfiguration statt.

@@ -1,0 +1,1 @@
+Bei Bildern aus dem Internet mit transparentem Hintergrund gibt es dagegen mehr freie Flächen, an denen man Texte platzieren kann. Allerdings sind diese auch größer als bei Bildern in normaler Größe. Wenn man auf ein Bild klickt erhält man mit der rechten Maustaste neben dem Bild eine weitere Auswahlmaske.

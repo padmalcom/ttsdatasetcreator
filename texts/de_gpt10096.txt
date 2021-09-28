@@ -1,0 +1,1 @@
+ und erstellt je einen Eintrag in der DLL Users.js, die im gleichen Verzeichnis liegen wie die .js Datei der Seite. Diese beiden Skripte stehen auf der Seite Download bereit.

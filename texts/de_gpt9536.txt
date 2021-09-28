@@ -1,0 +1,1 @@
+Markieren Sie einen Textbereich. Klicken Sie auf Einfügen. Stellen Sie die Textgröße ein und wählen Sie den Text aus, den Sie in der Registerkarte Text einfügen möchten. Bei einem Word-Dokument wird standardmäßig das gesamte Dokument als Vektor festgelegt.

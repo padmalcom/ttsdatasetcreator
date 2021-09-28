@@ -1,0 +1,1 @@
+Die Konfigurationsdatei ist nach dem Login sichtbar. Sobald Sie die neue Version installiert haben, geben Sie einfach den folgenden Befehl ein: Der D.iNFO-Server hat einen Benutzer und ein Passwort. Der Benutzer und das Passwort sind zwei der Komponenten die mit dem DHCP-Server verbunden sind. Der zweite Parameter ist das Passwort.

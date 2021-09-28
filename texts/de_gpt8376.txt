@@ -1,0 +1,1 @@
+Mit einer Maus können Sie in die Mitte des Bildes klicken und dieses vergrößern. Mit rechter Maustaste und "Bild speichern unter..." können Sie es auf ihren Computer bringen. Nun können Sie ein Bild mit der Maus an die gewünschte Position ziehen. Die Größe des Bildes wird in Klammern dargestellt. Um das Bild zu verschieben, klicken Sie auf den Pfeil.

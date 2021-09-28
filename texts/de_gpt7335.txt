@@ -1,0 +1,1 @@
+Zum Hinzufügen von weiteren Zellen des Dokuments, verwenden Sie den Befehl Hinzufügen von Zellen zu den Tabellenblättern des Dokuments im Menü "Extras", und führen Sie ein Makro zum Löschen der Zellen aus.
