@@ -14,6 +14,7 @@ from transformers import AutoTokenizer, T5ForConditionalGeneration
 from spacy.lang.de import German
 from spacy.lang.en import English
 from spacy.lang.fr import French
+from spacy.lang.it import Italian
 
 # Cleansing
 tokenizer = AutoTokenizer.from_pretrained("flexudy/t5-base-multi-sentence-doctor")
@@ -71,8 +72,8 @@ def normlize_text(text, lang, nlp, clean = False):
 		sentence = clean_sentence(sentence)
 	return sentence	
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
 	console = Console()
 	
 	app_folder = os.path.dirname(os.path.realpath(__file__))
@@ -120,6 +121,8 @@ if __name__ == '__main__':
 		nlp = English()
 	elif in_lang == 'fr':
 		nlp = French()
+	elif in_lang == 'it':
+		nlp = Italian()
 	else:
 		console.print("The language %s is not supported yet. Please create a github issue." % in_lang)
 		sys.exit(0)	
