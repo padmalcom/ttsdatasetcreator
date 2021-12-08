@@ -13,6 +13,7 @@ from num2words import num2words
 from spacy.lang.de import German
 from spacy.lang.en import English
 from spacy.lang.fr import French
+from spacy.lang.it import Italian
 
 from transformers import pipeline
 
@@ -81,8 +82,8 @@ if __name__ == '__main__':
 	if not in_lang:
 		in_lang = default_lang
 		
-	if not in_lang in ['de', 'en', 'fr']:
-		console.print("Language [red]%s[/red] is not supported by wikipedia." % in_lang)
+	if not in_lang in ['de', 'en', 'fr', 'it']:
+		console.print("Language [red]%s[/red] is not supported for gpt2 generation." % in_lang)
 		sys.exit(0)
 		
 	console.print("Language is set to [red]%s[/red]." % in_lang)
@@ -116,6 +117,10 @@ if __name__ == '__main__':
 		nlp = French()
 		pipe = pipeline('text-generation', model="antoiloui/belgpt2", tokenizer="antoiloui/belgpt2", device = 0)
 		text = pipe("Le sens de la vie est", max_length=100)[0]["generated_text"]		
+	elif in_lang == 'it':
+		nlp = Italian()
+		pipe = pipeline('text-generation', model="LorenzoDeMattei/GePpeTto", tokenizer="LorenzoDeMattei/GePpeTto", device = 0)
+		text = pipe("Il senso della vita è", max_length=100)[0]["generated_text"]				
 	else:
 		console.print("The language %s is not supported yet. Please create a github issue." % in_lang)
 		sys.exit(0)
