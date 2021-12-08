@@ -9,10 +9,12 @@ import pdfplumber
 from spacy.lang.de import German
 from spacy.lang.en import English
 from spacy.lang.fr import French
+from spacy.lang.it import Italian
 
 import glob
 import os
 import re
+import sys
 
 from datetime import datetime, timedelta
 
@@ -94,6 +96,8 @@ if __name__ == '__main__':
 		nlp = English()
 	elif in_lang == 'fr':
 		nlp = French()
+	elif in_lang == 'it':
+		nlp = Italian()
 	else:
 		console.print("The language %s is not supported yet. Please create a github issue." % in_lang)
 		sys.exit(0)

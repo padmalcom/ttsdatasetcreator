@@ -5,6 +5,7 @@ import os
 from spacy.lang.de import German
 from spacy.lang.en import English
 from spacy.lang.fr import French
+from spacy.lang.it import Italian
 import time
 import pyaudio
 import keyboard

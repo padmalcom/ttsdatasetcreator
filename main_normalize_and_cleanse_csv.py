@@ -69,7 +69,7 @@ if __name__ == '__main__':
 	if not in_lang:
 		in_lang = default_lang
 		
-	if not in_lang in ['de', 'en', 'fr']:
+	if not in_lang in ['de', 'en', 'fr', 'it']:
 		console.print("Language [red]%s[/red] is not supported by wikipedia." % in_lang)
 		sys.exit(0)
 		
