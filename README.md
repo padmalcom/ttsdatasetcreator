@@ -2,6 +2,8 @@
 This tool helps you to create datasets for text to speech tasks. It shows you single sentences that you read out loud. Your voice
 is recorded, trimmed and saved along with the sentence as text file in a specific folder.
 
+<a href="https://www.buymeacoffee.com/padmalcom" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 ## Installation
 Create a conda environment from the yml file
 
