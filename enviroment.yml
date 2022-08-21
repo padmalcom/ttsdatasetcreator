@@ -19,17 +19,23 @@ dependencies:
     - appdirs==1.4.4
     - audioread==2.1.9
     - autopep8==1.5.7
+    - beautifulsoup4==4.11.1
     - blis==0.7.4
     - catalogue==2.0.4
     - cffi==1.14.5
     - chardet==4.0.0
+    - charset-normalizer==2.1.1
     - click==7.1.2
     - colorama==0.4.4
     - commonmark==0.9.1
+    - cryptography==37.0.4
     - cymem==2.0.5
     - decorator==5.0.9
+    - docopt==0.6.2
     - docutils==0.17.1
+    - filelock==3.8.0
     - future==0.18.2
+    - huggingface-hub==0.8.1
     - idna==2.10
     - jedi==0.18.0
     - jinja2==3.0.1
@@ -39,14 +45,19 @@ dependencies:
     - llvmlite==0.36.0
     - markupsafe==2.0.1
     - murmurhash==1.0.5
+    - num2words==0.5.12
     - numba==0.53.1
     - numpy==1.21.0
     - packaging==20.9
     - parso==0.8.2
     - pathspec==0.8.1
     - pathy==0.6.0
+    - pdfminer-six==20220524
+    - pdfplumber==0.7.4
+    - pillow==9.2.0
     - pooch==1.4.0
     - preshed==3.0.5
+    - protobuf==3.20.0
     - pycodestyle==2.7.0
     - pycparser==2.20
     - pydantic==1.7.4
@@ -65,24 +76,33 @@ dependencies:
     - pyyaml==5.4.1
     - qtawesome==1.0.3
     - qtpy==1.9.0
+    - regex==2022.8.17
     - requests==2.25.1
     - resampy==0.2.2
     - rich==10.4.0
     - scikit-learn==0.24.2
     - scipy==1.7.0
+    - sentencepiece==0.1.97
     - six==1.16.0
     - smart-open==5.1.0
     - soundfile==0.10.3.post1
+    - soupsieve==2.3.2.post1
     - spacy==3.0.6
     - spacy-legacy==3.0.6
     - srsly==2.4.1
     - thinc==8.0.6
     - threadpoolctl==2.1.0
+    - tokenizers==0.12.1
     - toml==0.10.2
+    - torch==1.12.1
     - tqdm==4.61.1
+    - transformers==4.21.1
     - typer==0.3.2
+    - typing-extensions==4.3.0
     - urllib3==1.26.6
+    - wand==0.6.10
     - wasabi==0.8.2
     - webcolors==1.11.1
     - webrtcvad==2.0.10
+    - wikipedia==1.4.0
 prefix: C:\Users\admin\Anaconda3\envs\ttsdatasetcreator
